@@ -1,0 +1,15 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/mianmianba/Projects/python_workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyTestProject/com.python.pydev.analysis/v2_indexcache
+root.nested.__init__|1440375722000000000|/home/mianmianba/Projects/python_workspace/MyTestProject/src/root/nested/__init__.py
+root.__init__|1440375722000000000|/home/mianmianba/Projects/python_workspace/MyTestProject/src/root/__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+0
+-- END DICTIONARY
+-- START TREE 1
+0
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
