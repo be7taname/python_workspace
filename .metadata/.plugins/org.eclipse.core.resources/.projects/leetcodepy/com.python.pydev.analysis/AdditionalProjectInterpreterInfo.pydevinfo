@@ -1,0 +1,28 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/mianmianba/Projects/python_workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/leetcodepy/com.python.pydev.analysis/v2_indexcache
+problemset.Algorithms|1441079996000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/Algorithms.py
+problemset.__init__|1440906840000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/__init__.py
+problemset.TwoSum|1441079972000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/TwoSum.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+1=problemset.Algorithms
+3=TwoSum
+2=problemset.TwoSum
+-- END DICTIONARY
+-- START TREE 1
+7
+a|0|
+arg|1|args!11@
+par|1|parser!11@
+sol|0|
+tit|1|titleNum!11@
+ts|1|ts!11@
+two|1|TwoSum!17@
+-- END TREE
+-- START TREE 2
+2
+a|0|
+sol|1|solution!3&18@
+-- END TREE

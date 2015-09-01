@@ -2,6 +2,7 @@
 -- START DISKCACHE_2
 /home/mianmianba/Projects/python_workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyTestProject/com.python.pydev.analysis/v2_indexcache
 root.nested.__init__|1440375722000000000|/home/mianmianba/Projects/python_workspace/MyTestProject/src/root/nested/__init__.py
+root.nested.example|1440386585000000000|/home/mianmianba/Projects/python_workspace/MyTestProject/src/root/nested/example.py
 root.__init__|1440375722000000000|/home/mianmianba/Projects/python_workspace/MyTestProject/src/root/__init__.py
 -- END DISKCACHE
 -- START DICTIONARY
