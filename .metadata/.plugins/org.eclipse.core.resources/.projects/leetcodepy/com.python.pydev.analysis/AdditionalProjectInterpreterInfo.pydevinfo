@@ -1,28 +1,32 @@
 -- VERSION_4
 -- START DISKCACHE_2
 /home/mianmianba/Projects/python_workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/leetcodepy/com.python.pydev.analysis/v2_indexcache
-problemset.Algorithms|1441079996000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/Algorithms.py
+problemset.Algorithms|1441080150000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/Algorithms.py
+problemset.MaxArea|1441173356000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MaxArea.py
 problemset.__init__|1440906840000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/__init__.py
 problemset.TwoSum|1441079972000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/TwoSum.py
 -- END DISKCACHE
 -- START DICTIONARY
-3
+5
 1=problemset.Algorithms
-3=TwoSum
-2=problemset.TwoSum
+2=problemset.MaxArea
+5=TwoSum
+4=MaxArea
+3=problemset.TwoSum
 -- END DICTIONARY
 -- START TREE 1
-7
+8
 a|0|
 arg|1|args!11@
+max|1|MaxArea!17@
 par|1|parser!11@
 sol|0|
 tit|1|titleNum!11@
 ts|1|ts!11@
-two|1|TwoSum!17@
+two|1|TwoSum!25@
 -- END TREE
 -- START TREE 2
 2
 a|0|
-sol|1|solution!3&18@
+sol|2|solution!4&18@solution!5&26@
 -- END TREE

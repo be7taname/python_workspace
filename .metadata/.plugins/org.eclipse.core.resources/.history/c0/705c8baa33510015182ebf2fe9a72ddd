@@ -1,0 +1,8 @@
+'''
+Created on Sep 1, 2015
+
+@author: mianmianba
+'''
+
+class MaxArea(object):
+    def solution(self, height):

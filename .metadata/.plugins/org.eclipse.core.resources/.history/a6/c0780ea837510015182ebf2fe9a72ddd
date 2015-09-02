@@ -23,7 +23,7 @@ if titleNum == 1:
     ts = TwoSum()
     print ts.solution([2, 7, 11, 15], 9)
 elif titleNum == 11:
-    from MaxArea import MaxArea # Container With Most Water, Hard
+    # Container With Most Water
 else:
     print 'Do nothing'
     

@@ -1,0 +1,23 @@
+'''
+Created on Sep 1, 2015
+
+@author: mianmianba
+'''
+
+class MaxArea(object):
+    def solution(self, height):
+        """
+        :type height: List[int]
+        :rtype: int
+        """
+        i = 0
+        j = len(height)
+        curMaxArea = 0
+        while (i < j):
+            thisArea = (j - i) * min(height[i], height[j])
+            if (thisArea > curMaxArea):
+                curMaxArea = thisArea
+            if (height[i] < height[j]):
+                i += 1
+                while ((height[i] <= height[i-1]) and (i < j)):
+                    i += 1

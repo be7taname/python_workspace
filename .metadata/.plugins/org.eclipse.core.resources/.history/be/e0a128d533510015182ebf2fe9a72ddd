@@ -1,0 +1,14 @@
+'''
+Created on Sep 1, 2015
+
+@author: mianmianba
+'''
+
+class MaxArea(object):
+    def solution(self, height):
+        """
+        :type height: List[int]
+        :rtype: int
+        """
+        i = 0
+        j = len(height)
