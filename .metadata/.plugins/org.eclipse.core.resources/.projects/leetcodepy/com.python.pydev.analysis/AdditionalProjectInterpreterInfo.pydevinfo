@@ -1,32 +1,46 @@
 -- VERSION_4
 -- START DISKCACHE_2
 /home/mianmianba/Projects/python_workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/leetcodepy/com.python.pydev.analysis/v2_indexcache
-problemset.Algorithms|1441080150000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/Algorithms.py
+problemset.LongestPalindromicSubstring|1441520566000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LongestPalindromicSubstring.py
+problemset.GasStation|1441255329000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/GasStation.py
 problemset.MaxArea|1441173356000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MaxArea.py
 problemset.__init__|1440906840000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/__init__.py
+problemset.NumberOfIslands|1441437567000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/NumberOfIslands.py
 problemset.TwoSum|1441079972000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/TwoSum.py
 -- END DISKCACHE
 -- START DICTIONARY
-5
-1=problemset.Algorithms
-2=problemset.MaxArea
-5=TwoSum
-4=MaxArea
-3=problemset.TwoSum
+10
+2=problemset.LongestPalindromicSubstring
+1=problemset.GasStation
+3=problemset.MaxArea
+10=TwoSum
+7=NumIslands
+8=MaxArea
+5=problemset.TwoSum
+4=problemset.NumberOfIslands
+9=CanCompleteCircuit
+6=LongestPalindrome
 -- END DICTIONARY
 -- START TREE 1
-8
+12
 a|0|
-arg|1|args!11@
-max|1|MaxArea!17@
-par|1|parser!11@
+arg|0|
+can|1|CanCompleteCircuit!9@
+lon|1|LongestPalindrome!17@
+lp|0|
+max|1|MaxArea!25@
+num|1|NumIslands!33@
+par|0|
 sol|0|
-tit|1|titleNum!11@
-ts|1|ts!11@
-two|1|TwoSum!25@
+tit|0|
+ts|0|
+two|1|TwoSum!41@
 -- END TREE
 -- START TREE 2
-2
+5
 a|0|
-sol|2|solution!4&18@solution!5&26@
+fin|2|findPalindromeAtCenter!6&18@findLongestPalindrome!6&18@
+sea|0|
+sol|7|solutionBFS!7&34@solution!8&26@solution!6&18@solution!9&10@solution!10&42@solutionRecursive!6&18@solutionDFS!7&34@
+vis|1|visitIsland!7&34@
 -- END TREE

@@ -1,0 +1,7 @@
+'''
+Created on Sep 5, 2015
+
+@author: mianmianba
+'''
+class LongestPalindrome(object):
+    def solution(self, s):

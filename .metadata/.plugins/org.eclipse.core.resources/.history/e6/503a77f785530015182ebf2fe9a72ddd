@@ -1,0 +1,16 @@
+'''
+Created on Sep 4, 2015
+
+@author: mianmianba
+'''
+class NumIslands(object):
+    def solution(self, grid):
+        """
+        :type grid: List[List[str]]
+        :rtype: int
+        """
+        numRow = len(grid)
+        numCol = len(grid[0])
+        for i in xrange(numRow):
+            for j in xrange(numCol):
+                

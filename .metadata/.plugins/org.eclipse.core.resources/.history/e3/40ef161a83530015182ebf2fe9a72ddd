@@ -1,0 +1,8 @@
+'''
+Created on Sep 4, 2015
+
+@author: mianmianba
+'''
+class NumIslands(object):
+    def solution(self, grid):
+        

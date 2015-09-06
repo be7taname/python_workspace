@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 1;
+titleNum = 5;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -22,8 +22,16 @@ if titleNum == 1:
     from TwoSum import TwoSum # Two Sum, Hard
     ts = TwoSum()
     print ts.solution([2, 7, 11, 15], 9)
+elif titleNum == 5:
+    from LongestPalindromicSubstring import LongestPalindrome
+    lp = LongestPalindrome() # Longest Palindromic Substring, 
+    print lp.solutionRecursive('bb') # recursive solution is good, but there is better one, Hard
 elif titleNum == 11:
     from MaxArea import MaxArea # Container With Most Water, Hard
+elif titleNum == 134:
+    from GasStation import CanCompleteCircuit # Gas Station, Hard
+elif titleNum == 200:
+    from NumberOfIslands import NumIslands # Number of Islands, Hard
 else:
     print 'Do nothing'
     

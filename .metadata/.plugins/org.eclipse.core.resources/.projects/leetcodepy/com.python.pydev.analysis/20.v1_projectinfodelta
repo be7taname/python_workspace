@@ -1,0 +1,8 @@
+INSTUPproblemset.LongestPalindromicSubstring
+/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LongestPalindromicSubstring.py
+INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1&&2|5|2|1
+solutionRecursive=5
+findPalindromeAtCenter=3
+problemset.LongestPalindromicSubstring=2
+solution=4
+LongestPalindrome=1
