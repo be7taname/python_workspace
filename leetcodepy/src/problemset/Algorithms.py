@@ -29,7 +29,9 @@ elif titleNum == 5:
 elif titleNum == 11:
     from MaxArea import MaxArea # Container With Most Water, Hard
 elif titleNum == 15:
-    a = 5 # 3Sum
+    from ThreeSum import ThreeSum # 3Sum, Hard
+    thsu = ThreeSum()
+    print thsu.solution([0, 0, 0])
 elif titleNum == 134:
     from GasStation import CanCompleteCircuit # Gas Station, Hard
 elif titleNum == 173: # Binary Search Tree Iterator, Interesting

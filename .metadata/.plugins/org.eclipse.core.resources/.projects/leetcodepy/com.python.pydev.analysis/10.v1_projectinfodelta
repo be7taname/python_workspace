@@ -1,11 +1,6 @@
-INSTUPproblemset.Algorithms
-/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/Algorithms.py
-INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|1|2|0&&3|5|2|0&&3|6|2|0&&3|7|2|0&&3|8|2|0
-ts=5
-root=8
-titleNum=1
-args=4
-a=7
-lp=6
-problemset.Algorithms=2
-parser=3
+INSTUPproblemset.ThreeSum
+/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/ThreeSum.py
+INFOS:&&1|1|2|0&&2|3|2|1
+problemset.ThreeSum=2
+ThreeSum=1
+solution=3

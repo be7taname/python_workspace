@@ -1,0 +1,21 @@
+'''
+Created on Sep 7, 2015
+
+@author: mianmianba
+'''
+
+class ThreeSum(object):
+    def solution(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        nums.sort()
+        all3sum = []
+        for i in range(0, len(nums)-2):
+            if nums[i] > 0: break
+            elif i > 0 and nums[i] == nums[i-1]: continue
+            else:
+                head = nums[i+1]
+                tail = nums[len(nums)-1]
+                thisSum = nums[i] + head + tail
