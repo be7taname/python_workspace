@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 5;
+titleNum = 15;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -28,8 +28,19 @@ elif titleNum == 5:
     print lp.solutionRecursive('bb') # recursive solution is good, but there is better one, Hard
 elif titleNum == 11:
     from MaxArea import MaxArea # Container With Most Water, Hard
+elif titleNum == 15:
+    a = 5 # 3Sum
 elif titleNum == 134:
     from GasStation import CanCompleteCircuit # Gas Station, Hard
+elif titleNum == 173: # Binary Search Tree Iterator, Interesting
+    from common.TreeNode import TreeNode, genTree, genTreeNoVal
+    from common.BSTIterator import BSTIterator
+    root = genTree([3, 1, 2, 11, 5, 4, 7, 10, 14], [10, 8, 3, 7, 6, 1, 14, 4, 13])
+    root.printTree()
+    root.printTreeNodeVal()
+    bstit, bstls = BSTIterator(root), []
+    while bstit.hasNext(): bstls.append(bstit.next())
+    print bstls
 elif titleNum == 200:
     from NumberOfIslands import NumIslands # Number of Islands, Hard
 else:

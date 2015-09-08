@@ -1,46 +1,82 @@
 -- VERSION_4
 -- START DISKCACHE_2
 /home/mianmianba/Projects/python_workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/leetcodepy/com.python.pydev.analysis/v2_indexcache
-problemset.LongestPalindromicSubstring|1441520566000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LongestPalindromicSubstring.py
+problemset.LongestPalindromicSubstring|1441522171000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LongestPalindromicSubstring.py
 problemset.GasStation|1441255329000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/GasStation.py
+common.BSTIterator|1441672323000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/common/BSTIterator.py
 problemset.MaxArea|1441173356000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MaxArea.py
 problemset.__init__|1440906840000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/__init__.py
+common.TreeNode|1441666532000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/common/TreeNode.py
 problemset.NumberOfIslands|1441437567000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/NumberOfIslands.py
 problemset.TwoSum|1441079972000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/TwoSum.py
+common.__init__|1441560873000000000|/home/mianmianba/Projects/python_workspace/leetcodepy/src/common/__init__.py
 -- END DISKCACHE
 -- START DICTIONARY
-10
-2=problemset.LongestPalindromicSubstring
-1=problemset.GasStation
-3=problemset.MaxArea
-10=TwoSum
-7=NumIslands
-8=MaxArea
-5=problemset.TwoSum
-4=problemset.NumberOfIslands
-9=CanCompleteCircuit
-6=LongestPalindrome
+19
+13=TreeNode.__init__
+19=BSTIterator.__init__
+4=problemset.LongestPalindromicSubstring
+1=common.BSTIterator
+5=problemset.MaxArea
+18=TwoSum
+15=NumIslands
+14=NodeLocation.__init__
+17=CanCompleteCircuit
+9=NodeLocation
+8=TreeNode
+10=BSTIterator
+2=problemset.GasStation
+12=TreeNode.setIndex
+16=MaxArea
+3=common.TreeNode
+6=problemset.NumberOfIslands
+7=problemset.TwoSum
+11=LongestPalindrome
 -- END DICTIONARY
 -- START TREE 1
-12
+18
 a|0|
 arg|0|
-can|1|CanCompleteCircuit!9@
-lon|1|LongestPalindrome!17@
+bst|1|BSTIterator!9@
+can|1|CanCompleteCircuit!17@
+gen|2|genTree!26@genTreeNoVal!26@
+ind|1|index2Location!26@
+lon|1|LongestPalindrome!33@
 lp|0|
-max|1|MaxArea!25@
-num|1|NumIslands!33@
+max|1|MaxArea!41@
+nod|1|NodeLocation!25@
+num|1|NumIslands!49@
 par|0|
+roo|0|
 sol|0|
 tit|0|
+tre|1|TreeNode!25@
 ts|0|
-two|1|TwoSum!41@
+two|1|TwoSum!57@
 -- END TREE
 -- START TREE 2
-5
+23
+__i|3|__init__!8&26@__init__!9&26@__init__!10&10@
 a|0|
-fin|2|findPalindromeAtCenter!6&18@findLongestPalindrome!6&18@
+com|1|compDepth!8&26@
+exi|1|existNode!8&26@
+fin|1|findPalindromeAtCenter!11&34@
+gen|0|
+has|1|hasNext!10&10@
+ind|1|index!12&27@
+ins|1|insertNode!8&26@
+lef|1|left!13&27@
+lev|1|level!14&27@
+nex|1|next!10&10@
+obt|1|obtainNode!8&26@
+off|1|offset!14&27@
+pri|2|printTreeNodeVal!8&26@printTree!8&26@
+rig|1|right!13&27@
 sea|0|
-sol|7|solutionBFS!7&34@solution!8&26@solution!6&18@solution!9&10@solution!10&42@solutionRecursive!6&18@solutionDFS!7&34@
-vis|1|visitIsland!7&34@
+set|1|setIndex!8&26@
+sol|7|solutionBFS!15&50@solution!16&42@solution!11&34@solution!17&18@solution!18&58@solutionRecursive!11&34@solutionDFS!15&50@
+toi|1|toIndex!9&26@
+tre|1|treeStack!19&11@
+val|1|val!13&27@
+vis|1|visitIsland!15&50@
 -- END TREE

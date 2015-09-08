@@ -1,0 +1,24 @@
+'''
+Created on Sep 6, 2015
+
+@author: mianmianba
+'''
+# Definition for a  binary tree node
+class TreeNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+    def genTree(self, indexList, valueList):
+        """
+        :type indexList: List[int]
+        :type valueList: List[int]
+        :rtype: TreeNode 
+        """
+        
+    def insertNode(self, index):
+        """
+        :type index: int
+        :rtype: TreeNode
+        

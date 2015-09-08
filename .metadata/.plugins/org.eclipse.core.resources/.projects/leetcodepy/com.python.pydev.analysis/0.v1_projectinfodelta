@@ -1,9 +1,11 @@
 INSTUPproblemset.Algorithms
 /home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/Algorithms.py
-INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|1|2|0&&3|5|2|0&&3|6|2|0
+INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|1|2|0&&3|5|2|0&&3|6|2|0&&3|7|2|0&&3|8|2|0
 ts=5
+root=7
 titleNum=1
 args=4
 lp=6
 problemset.Algorithms=2
+bstit=8
 parser=3
