@@ -1,6 +1,8 @@
-INSTUPproblemset.ThreeSum
-/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/ThreeSum.py
-INFOS:&&1|1|2|0&&2|3|2|1
-problemset.ThreeSum=2
-ThreeSum=1
+INSTUPproblemset.PalindromePartitioning
+/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/PalindromePartitioning.py
+INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1&&2|5|2|1
+findPartition=5
+problemset.PalindromePartitioning=2
+checkPalindrome=4
+PalindromePartitioning=1
 solution=3

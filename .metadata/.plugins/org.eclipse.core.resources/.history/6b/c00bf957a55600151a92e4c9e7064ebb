@@ -1,0 +1,14 @@
+'''
+Created on Sep 8, 2015
+
+@author: mianmianba
+'''
+class HIndex(object):
+    def solution(self, citations):
+        """
+        :type citations: List[int]
+        :rtype: int
+        """
+        citations.sort(reverse=True);
+        for i in range(len(citations)):
+            if citations[i] < i: break

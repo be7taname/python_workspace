@@ -1,0 +1,23 @@
+'''
+Created on Sep 8, 2015
+
+@author: mianmianba
+'''
+class LengthOfLongestSubstring(object):
+    def solution(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        aset = set()
+        alist = []
+        for c in s:
+            if c in aset:
+                letter = alist.pop(0)
+                while letter != c:
+                    aset.remove(letter)
+                    letter = alist.pop(0)
+            else:
+                aset.add(c)
+                alist.append(c)
+                

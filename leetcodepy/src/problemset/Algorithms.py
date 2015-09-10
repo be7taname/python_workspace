@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 15;
+titleNum = 131;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -22,6 +22,10 @@ if titleNum == 1:
     from TwoSum import TwoSum # Two Sum, Hard
     ts = TwoSum()
     print ts.solution([2, 7, 11, 15], 9)
+elif titleNum == 3:
+    from LongestSubStringNoRep import LengthOfLongestSubstring
+    lols = LengthOfLongestSubstring()
+    print lols.solution('c')
 elif titleNum == 5:
     from LongestPalindromicSubstring import LongestPalindrome
     lp = LongestPalindrome() # Longest Palindromic Substring, 
@@ -32,6 +36,12 @@ elif titleNum == 15:
     from ThreeSum import ThreeSum # 3Sum, Hard
     thsu = ThreeSum()
     print thsu.solution([0, 0, 0])
+elif titleNum == 120:
+    from Triangle import MinimumTotal # Triangle, find the minimum path of sum
+elif titleNum == 131:
+    from PalindromePartitioning import PalindromePartitioning # Palindrome Partitioning, very Hard
+    pp = PalindromePartitioning()
+    print pp.solution("a")
 elif titleNum == 134:
     from GasStation import CanCompleteCircuit # Gas Station, Hard
 elif titleNum == 173: # Binary Search Tree Iterator, Interesting
@@ -45,6 +55,8 @@ elif titleNum == 173: # Binary Search Tree Iterator, Interesting
     print bstls
 elif titleNum == 200:
     from NumberOfIslands import NumIslands # Number of Islands, Hard
+elif titleNum == 274:
+    from HIndex import HIndex # H-Index
 else:
     print 'Do nothing'
     

@@ -1,0 +1,7 @@
+'''
+Created on Sep 8, 2015
+
+@author: mianmianba
+'''
+class HIndex(object):
+    def solution(self, citations):

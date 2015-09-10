@@ -1,0 +1,15 @@
+'''
+Created on Sep 8, 2015
+
+@author: mianmianba
+'''
+class MinimumTotal(object):
+    def solution(self, triangle):
+        """
+        :type triangle: List[List[int]]
+        :rtype: int
+        """
+        numRows = len(triangle)
+        pathsum = [0] * numRows
+        pathsum[0] = triangle[0][0]
+        for row in range(1, numRows):

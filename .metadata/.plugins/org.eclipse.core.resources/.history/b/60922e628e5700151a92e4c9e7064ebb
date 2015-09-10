@@ -1,0 +1,31 @@
+'''
+Created on Sep 9, 2015
+
+@author: mianmianba
+'''
+
+class PalindromePartitioning(object):
+    def solution(self, s):
+        self.partition = []
+        self.result = []
+        self.findPartition(s, 0, self.partition, self.result)
+        return self.result
+        
+    def checkPalindrome(self, ss):
+        for i in range(len(ss)/2):
+            if ss[i] != ss[len(ss)-1-i]:
+                return False
+        else:
+            return True
+                 
+    def findPartition(self, s, start, partition, result):
+        if start == len(s):
+            result.append(partition)
+        else:
+            for i in range(start, len(s)):
+                if self.checkPalindrome(s[start:i+1]):
+                    partition.append(s[start:i+1])
+                    self.findPartition(s, i+1, partition, result)
+                    partition.pop()
+
+                

@@ -1,0 +1,17 @@
+'''
+Created on Sep 8, 2015
+
+@author: mianmianba
+'''
+class HIndex(object):
+    def solution(self, citations):
+        """
+        :type citations: List[int]
+        :rtype: int
+        """
+        numPaper = len(citations)
+        if numPaper == 0: return 0
+        citations.sort(reverse=True);
+        for i in range(numPaper):
+            if citations[i] < i + 1: return i
+        return i+1
