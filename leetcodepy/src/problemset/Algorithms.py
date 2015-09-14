@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 131;
+titleNum = 109;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -36,6 +36,20 @@ elif titleNum == 15:
     from ThreeSum import ThreeSum # 3Sum, Hard
     thsu = ThreeSum()
     print thsu.solution([0, 0, 0])
+elif titleNum == 53:
+    from MaximumSubarray import MaxSubArray # Maximum Subarray, Hard, for the best solution
+    ms = MaxSubArray()
+    print ms.solutions([-2, -1])
+    print ms.solutions([-2,1,-3,4,-1,2,1,-5,4]), ms.solutions([1])
+elif titleNum == 109:
+    from common.ListNode import ListNode
+    from common.TreeNode import TreeNode
+    from SortedListToBST import SortedListToBST # Convert sorted List to BST, Hard
+    ln = ListNode(1)
+    ln.next = ListNode(3)
+    sltb = SortedListToBST()
+    root = sltb.solution(ln)
+    root.printTreeNodeVal()
 elif titleNum == 120:
     from Triangle import MinimumTotal # Triangle, find the minimum path of sum
 elif titleNum == 131:
@@ -53,6 +67,8 @@ elif titleNum == 173: # Binary Search Tree Iterator, Interesting
     bstit, bstls = BSTIterator(root), []
     while bstit.hasNext(): bstls.append(bstit.next())
     print bstls
+elif titleNum == 199:
+    from BinaryTreeRightSideView import RightSideView # Binary Tree Right Side view
 elif titleNum == 200:
     from NumberOfIslands import NumIslands # Number of Islands, Hard
 elif titleNum == 274:

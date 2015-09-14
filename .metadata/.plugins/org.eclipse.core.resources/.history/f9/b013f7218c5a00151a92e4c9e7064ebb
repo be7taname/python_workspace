@@ -1,0 +1,26 @@
+'''
+Created on Sep 12, 2015
+
+@author: mianmianba
+'''
+
+from common.TreeNode import TreeNode
+
+class RightSideView(object):
+    def solution(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        rsvv = []
+        treeQ = [root]
+        mostRightNode = root
+        while treeQ:
+            thisNode = treeQ.pop(0)
+            if thisNode.left != None: 
+                treeQ.append(thisNode.left)
+                curMostRightNode = thisNode.left
+            if thisNode.right != None: 
+                treeQ.append(thisNode.right)
+                curMostRightNode = thisNode.left
+            if thisNode == mostRightNode:

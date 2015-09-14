@@ -1,0 +1,16 @@
+'''
+Created on Sep 10, 2015
+
+@author: mianmianba
+'''
+
+class MaxSubArray(object):
+    def solutions(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        for i in range(len(nums)):
+            cumsum.append(sum(nums[:i+1]))
+        
+        

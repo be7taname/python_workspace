@@ -1,0 +1,17 @@
+'''
+Created on Sep 12, 2015
+
+@author: mianmianba
+'''
+
+from common.TreeNode import TreeNode
+
+class RightSideView(object):
+    def solution(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        rsvv = []
+        treeQ = [root]
+        while treeQ:

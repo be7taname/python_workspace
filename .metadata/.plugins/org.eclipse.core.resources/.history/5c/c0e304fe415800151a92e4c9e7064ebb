@@ -1,0 +1,21 @@
+'''
+Created on Sep 10, 2015
+
+@author: mianmianba
+'''
+
+class MaxSubArray(object):
+    def solutions(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        cumsum = []
+        a = 0
+        for i in range(len(nums)):
+            a += nums[i]
+            cumsum.append(a)
+        minidx = cumsum.index(min(cumsum))
+        maxidx = cumsum.index(max(cumsum))
+        return nums[minidx+1:maxidx+1]
+    
