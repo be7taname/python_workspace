@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n<expression enabled\="true" text\="Globals"/>\n<expression enabled\="true" text\="tn"/>\n<expression enabled\="true" text\="listHead"/>\n<expression enabled\="true" text\="leftTree"/>\n<expression enabled\="true" text\="root"/>\n</watchExpressions>\n
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n<expression enabled\="true" text\="Globals"/>\n<expression enabled\="true" text\="stck"/>\n<expression enabled\="true" text\="listHead"/>\n<expression enabled\="true" text\="leftTree"/>\n<expression enabled\="true" text\="root"/>\n</watchExpressions>\n

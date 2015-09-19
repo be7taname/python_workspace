@@ -1,0 +1,9 @@
+'''
+Created on Sep 14, 2015
+
+@author: mianmianba
+'''
+
+class fractionToDecimal(object):
+    def solution(self, numerator, denominator):
+        

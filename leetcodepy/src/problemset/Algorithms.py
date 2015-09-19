@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 109;
+titleNum = 108;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -52,12 +52,20 @@ elif titleNum == 109:
     root.printTreeNodeVal()
 elif titleNum == 120:
     from Triangle import MinimumTotal # Triangle, find the minimum path of sum
+elif titleNum == 121:
+    from BestTimeBuySellStock import MaxProfit # best time to buy and sell stock
 elif titleNum == 131:
     from PalindromePartitioning import PalindromePartitioning # Palindrome Partitioning, very Hard
     pp = PalindromePartitioning()
     print pp.solution("a")
 elif titleNum == 134:
     from GasStation import CanCompleteCircuit # Gas Station, Hard
+elif titleNum == 136:
+    from SingleNumber import SingleNumber # Single Number
+elif titleNum == 166:
+    from Fraction2RecurringDecimal import FractionToDecimal # Fraction to Recurring Decimal, Hard
+    ftd = FractionToDecimal()
+    print ftd.solution(1, 5)
 elif titleNum == 173: # Binary Search Tree Iterator, Interesting
     from common.TreeNode import TreeNode, genTree, genTreeNoVal
     from common.BSTIterator import BSTIterator
@@ -71,6 +79,10 @@ elif titleNum == 199:
     from BinaryTreeRightSideView import RightSideView # Binary Tree Right Side view
 elif titleNum == 200:
     from NumberOfIslands import NumIslands # Number of Islands, Hard
+elif titleNum == 224:
+    from BasicCalculator import Calculate # Basic Calculator, Hard, Very
+    bc = Calculate()
+    print bc.solutionStack("1-1")
 elif titleNum == 274:
     from HIndex import HIndex # H-Index
 else:

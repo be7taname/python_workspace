@@ -1,0 +1,45 @@
+'''
+Created on Sep 15, 2015
+
+@author: mianmianba
+'''
+
+class calculate(object):
+    def solution(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        res = 0
+        for cc in s:
+            if cc == '0':
+                val = 0
+                mode = 1
+            elif cc == '1':
+                val = 1
+                mode = 1
+            elif cc == '2':
+                val = 2
+                mode = 1
+            elif cc == '3':
+                val = 3
+                mode = 1
+            elif cc == '4':
+                val = 4
+                mode = 1
+            elif cc == '5':
+                val = 5
+                mode = 1
+            elif cc == '6':
+                val = 6
+                mode = 1
+            elif cc == '7':
+                val = 7
+                mode = 1
+            elif cc == '8':
+                val = 8
+                mode = 1
+            elif cc == '9':
+                val = 9
+                mode = 1
+                

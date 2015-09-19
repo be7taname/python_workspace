@@ -1,0 +1,30 @@
+'''
+Created on Sep 14, 2015
+
+@author: mianmianba
+'''
+
+class fractionToDecimal(object):
+    def solution(self, numerator, denominator):
+        """
+        :type numerator: int
+        :type denominator: int
+        :rtype: str
+        """
+        intPart = numerator / denominator
+        remainder = numerator - denominator * intPart
+        remVisited = [0] * len(denominator)
+        fracList = ""
+        rep = 0
+        while remainder != 0:
+            newFrac = remainder * 10 / denominator
+            remainder = remainder * 10 - newFrac * denominator
+            if remVisited[remainder] == 0: remVisited[remainder] = 1
+            else:
+                rep = 1
+                break 
+            fracList += str(newFrac)
+            
+            
+            
+            

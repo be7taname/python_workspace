@@ -1,0 +1,9 @@
+'''
+Created on Sep 15, 2015
+
+@author: mianmianba
+'''
+
+class MaxProfit(object):
+    def solution(self, prices):
+        

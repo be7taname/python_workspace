@@ -4,7 +4,10 @@ common.ListNode|/home/mianmianba/Projects/python_workspace/leetcodepy/src/common
 common.TreeNode|/home/mianmianba/Projects/python_workspace/leetcodepy/src/common/TreeNode.py
 common.__init__|/home/mianmianba/Projects/python_workspace/leetcodepy/src/common/__init__.py
 problemset.Algorithms|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/Algorithms.py
+problemset.BasicCalculator|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/BasicCalculator.py
+problemset.BestTimeBuySellStock|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/BestTimeBuySellStock.py
 problemset.BinaryTreeRightSideView|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/BinaryTreeRightSideView.py
+problemset.Fraction2RecurringDecimal|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/Fraction2RecurringDecimal.py
 problemset.GasStation|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/GasStation.py
 problemset.HIndex|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/HIndex.py
 problemset.LongestPalindromicSubstring|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LongestPalindromicSubstring.py
@@ -13,6 +16,7 @@ problemset.MaxArea|/home/mianmianba/Projects/python_workspace/leetcodepy/src/pro
 problemset.MaximumSubarray|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MaximumSubarray.py
 problemset.NumberOfIslands|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/NumberOfIslands.py
 problemset.PalindromePartitioning|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/PalindromePartitioning.py
+problemset.SingleNumber|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SingleNumber.py
 problemset.SortedListToBST|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SortedListToBST.py
 problemset.ThreeSum|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/ThreeSum.py
 problemset.Triangle|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/Triangle.py

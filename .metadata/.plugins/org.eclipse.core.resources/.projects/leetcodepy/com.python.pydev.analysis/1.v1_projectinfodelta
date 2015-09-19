@@ -1,1 +1,8 @@
-DELSTRproblemset.SortedListToBST
+INSTUPproblemset.BasicCalculator
+/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/BasicCalculator.py
+INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1&&2|5|2|1
+Calculate=1
+solutionStack=4
+doCal=3
+solution=5
+problemset.BasicCalculator=2

@@ -1,0 +1,44 @@
+'''
+Created on Sep 14, 2015
+
+@author: mianmianba
+'''
+
+class FractionToDecimal(object):
+    def solution(self, numerator, denominator):
+        """
+        :type numerator: int
+        :type denominator: int
+        :rtype: str
+        """
+        if denominator < 0: 
+            denominator = -denominator
+            numerator = -numerator
+        if numerator < 0:
+            numerator = -numerator
+            sign = -1
+        else:
+            sign = 1
+        intPart = numerator / denominator
+        remainder = numerator - denominator * intPart
+        if remainder == 0: return str(sign*intPart)
+        # remVisited = [0] * denominator
+        remVisited = []
+        fracPart = 0
+        rep = 0
+        while remainder != 0:
+            newFrac = remainder * 10 / denominator
+            remainder = remainder * 10 - newFrac * denominator
+            if remainder not in remVisited: remVisited.add(remainder)
+            else:
+                rep = 1
+                break 
+            fracPart = fracPart * 10 + newFrac
+        if rep == 0:
+            return '{}.{}'.format(sign*intPart, fracPart)
+        else:
+            return '{}.({})'.format(sign*intPart, fracPart)
+            
+            
+            
+            
