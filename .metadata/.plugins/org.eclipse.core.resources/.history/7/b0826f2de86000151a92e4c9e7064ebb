@@ -1,0 +1,7 @@
+'''
+Created on Sep 21, 2015
+
+@author: mianmianba
+'''
+class LargestNumber(object):
+    def solution(self, nums):

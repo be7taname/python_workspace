@@ -1,0 +1,13 @@
+'''
+Created on Sep 20, 2015
+
+@author: mianmianba
+'''
+class ReverseWords(object):
+    def solution(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        wordQ = []
+        for cc in s:

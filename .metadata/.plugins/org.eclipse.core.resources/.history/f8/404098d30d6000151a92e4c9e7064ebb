@@ -1,0 +1,25 @@
+'''
+Created on Sep 20, 2015
+
+@author: mianmianba
+'''
+
+class NumberToWords(object):
+    def under1000(self, num):
+        if num == 0: return "Zero"
+        belowTwenty = ["One", "Two", "Three", "Four", "Five", 
+                       "Six", "Seven", "Eight", "Nine", "Ten", 
+                       "Eleven", "Twelve", "Thirteen", "Fourteen",
+                       "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"];
+        hundreds = num/100
+        numStr = ""
+        if hundreds != 0:
+            numStr = (belowTwenty[hundreds-1] + "Hundred")
+            num -= 100*hundreds
+        
+    def solution(self, num):
+        """
+        :type num: int
+        :rtype: str
+        """
+        if num == 0: return "Zero"

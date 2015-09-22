@@ -1,0 +1,9 @@
+'''
+Created on Sep 20, 2015
+
+@author: mianmianba
+'''
+
+class Divide(object):
+    def solution(self, dividend, divisor):
+        

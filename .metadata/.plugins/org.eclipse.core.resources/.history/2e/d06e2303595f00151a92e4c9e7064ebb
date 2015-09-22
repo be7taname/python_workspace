@@ -1,0 +1,14 @@
+'''
+Created on Sep 19, 2015
+
+@author: mianmianba
+'''
+
+class FlipSurroundedRegions(object):
+    def solution(self, board):
+        """
+        :type board: List[List[str]]
+        :rtype: void Do not return anything, modify board in-place instead.
+        """
+        numRow = len(board)
+        numCol = len(board[0])

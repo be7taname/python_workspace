@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 108;
+titleNum = 179;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -36,11 +36,21 @@ elif titleNum == 15:
     from ThreeSum import ThreeSum # 3Sum, Hard
     thsu = ThreeSum()
     print thsu.solution([0, 0, 0])
+elif titleNum == 29:
+    from DivideTwoIntegers import Divide # Divide Two Integers
 elif titleNum == 53:
     from MaximumSubarray import MaxSubArray # Maximum Subarray, Hard, for the best solution
     ms = MaxSubArray()
     print ms.solutions([-2, -1])
     print ms.solutions([-2,1,-3,4,-1,2,1,-5,4]), ms.solutions([1])
+elif titleNum == 91:
+    from DecodeWays import NumDecodings
+    nds = NumDecodings()
+    s = '12006'
+    print nds.solutionDP(s) # Decode Ways, Hard, Dynamic Programming
+    print nds.solutionDPOnline(s)
+elif titleNum == 108:
+    from SortedArrayToBST import SortedArrayToBST
 elif titleNum == 109:
     from common.ListNode import ListNode
     from common.TreeNode import TreeNode
@@ -54,6 +64,12 @@ elif titleNum == 120:
     from Triangle import MinimumTotal # Triangle, find the minimum path of sum
 elif titleNum == 121:
     from BestTimeBuySellStock import MaxProfit # best time to buy and sell stock
+elif titleNum == 130:
+    from SurroundedRegions import FlipSurroundedRegions # Surrounded Regions, Hard, BFS loop vs. DFS recursive
+    fsr = FlipSurroundedRegions()
+    board = [['X','X','X','X'], ['X','O','O','X'], ['X','X','O','X'], ['X','O','X','X']]
+    fsr.solutionBFS(board)
+    print board
 elif titleNum == 131:
     from PalindromePartitioning import PalindromePartitioning # Palindrome Partitioning, very Hard
     pp = PalindromePartitioning()
@@ -62,6 +78,10 @@ elif titleNum == 134:
     from GasStation import CanCompleteCircuit # Gas Station, Hard
 elif titleNum == 136:
     from SingleNumber import SingleNumber # Single Number
+elif titleNum == 151:
+    from ReverseWordsInString import ReverseWords # Reverse Words In a String, Hard, use function join&split
+    rw = ReverseWords()
+    print rw.solution("   a   b ")
 elif titleNum == 166:
     from Fraction2RecurringDecimal import FractionToDecimal # Fraction to Recurring Decimal, Hard
     ftd = FractionToDecimal()
@@ -75,6 +95,8 @@ elif titleNum == 173: # Binary Search Tree Iterator, Interesting
     bstit, bstls = BSTIterator(root), []
     while bstit.hasNext(): bstls.append(bstit.next())
     print bstls
+elif titleNum == 179:
+    from LargestNumber import LargestNumber # Largest Number, Hard, Use customized compare function for sorting
 elif titleNum == 199:
     from BinaryTreeRightSideView import RightSideView # Binary Tree Right Side view
 elif titleNum == 200:
@@ -83,6 +105,8 @@ elif titleNum == 224:
     from BasicCalculator import Calculate # Basic Calculator, Hard, Very
     bc = Calculate()
     print bc.solutionStack("1-1")
+elif titleNum == 273:
+    from IntegerToEnglishWords import NumberToWords # Integer To English Words
 elif titleNum == 274:
     from HIndex import HIndex # H-Index
 else:

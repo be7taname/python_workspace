@@ -1,0 +1,18 @@
+'''
+Created on Sep 21, 2015
+
+@author: mianmianba
+'''
+class LargestNumber(object):
+    def mycmp(self, x, y):
+        return x + y > y + x
+    
+    def solution(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: str
+        """
+        numstr = [str(num) for num in nums]
+        numstrSort = sorted(numstr, cmp = self.mycmp)
+        return "".join(numstrSort)
+    

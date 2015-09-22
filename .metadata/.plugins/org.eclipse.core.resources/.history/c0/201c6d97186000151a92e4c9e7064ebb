@@ -1,0 +1,22 @@
+'''
+Created on Sep 20, 2015
+
+@author: mianmianba
+'''
+class ReverseWords(object):
+    def solution(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        sLen = len(s)
+        wordList = []
+        i = 0
+        while i < sLen:
+            cc = s[i]
+            if cc != " ":
+                curWord = cc
+                if i == sLen - 1: break
+                while i < sLen:
+                    curWord += cc
+                    i += 1

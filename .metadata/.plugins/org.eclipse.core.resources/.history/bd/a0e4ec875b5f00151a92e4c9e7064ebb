@@ -1,0 +1,31 @@
+'''
+Created on Sep 19, 2015
+
+@author: mianmianba
+'''
+
+class FlipSurroundedRegions(object):
+    def expand(self, board, row, col, visited):
+        numRow = len(board)
+        numCol = len(board[0])
+        visited[row][col] = True
+        if row-1 >= 0 and board[row-1][col] == 'O':
+            self.expand(board, row-1, col, visited)
+        if row+1 < numRow and board[row+1][col] == 'O':
+            self.expand(board, row+1, col, visited)
+        if col-1 >= 0 and board[row][col-1] == 'O':
+            self.expand(board, row, col-1, visited)
+        
+    def solution(self, board):
+        """
+        :type board: List[List[str]]
+        :rtype: void Do not return anything, modify board in-place instead.
+        """
+        numRow = len(board)
+        numCol = len(board[0])
+        visited = [[False]*numCol for i in range(numRow)]
+        for i in range(numCol):
+            if board[0][i] == 'X':
+                visited[0][i] = True
+            else:
+                
