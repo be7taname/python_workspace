@@ -1,0 +1,63 @@
+'''
+Created on Sep 22, 2015
+
+@author: mianmianba
+'''
+
+class LadderLength(object):
+    def diffOne(self, word1, word2, wordLen):
+        numDiff = 0
+        for i in range(wordLen):
+            if word1[i] != word2[i]:
+                if numDiff == 0:
+                    numDiff = 1
+                else:
+                    return False
+        return False if numDiff == 0 else True
+        
+    def solution(self, beginWord, endWord, wordList):
+        """
+        :type beginWord: str
+        :type endWord: str
+        :type wordList: Set[str]
+        :rtype: int
+        """
+        if beginWord == endWord: return 1
+        wordLen = len(beginWord)
+        curList = []
+        remainList = []
+        for word in wordList:
+            if word == beginWord:
+                wordList.remove(word) 
+                continue
+            if self.diffOne(word, beginWord, wordLen):
+                if word == endWord: return 2
+                elif self.diffOne(word, endWord, wordLen):
+                    return 3
+                else:
+                    curList.append(word)
+            else:
+                remainList.append(word)
+        nxtList = []
+        nxtRemainList = []
+        curLevel = 2
+        while remainList:
+            curLevel += 1
+            change = 0
+            for wordR in remainList:
+                for wordC in curList:
+                    if self.diffOne(wordR, wordC, wordLen):
+                        change = 1
+                        if wordR == endWord: return curLevel
+                        elif self.diffOne(wordR, endWord, wordLen):
+                            return curLevel + 1
+                        else:
+                            nxtList.append(wordR)
+                        break
+                    else:
+                        nxtRemainList.append(wordR)
+            if change == 0: return 0
+            remainList = nxtRemainList
+            curList = nxtList
+        return 0           
+        

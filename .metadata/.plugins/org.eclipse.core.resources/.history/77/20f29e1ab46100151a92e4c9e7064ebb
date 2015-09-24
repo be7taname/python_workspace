@@ -1,0 +1,17 @@
+'''
+Created on Sep 22, 2015
+
+@author: mianmianba
+'''
+
+class LadderLength(object):
+    def diffOne(self, word1, word2):
+        
+    def solution(self, beginWord, endWord, wordList):
+        """
+        :type beginWord: str
+        :type endWord: str
+        :type wordList: Set[str]
+        :rtype: int
+        """
+                
