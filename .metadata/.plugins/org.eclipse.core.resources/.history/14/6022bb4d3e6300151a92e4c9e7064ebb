@@ -1,0 +1,9 @@
+'''
+Created on Sep 24, 2015
+
+@author: mianmianba
+'''
+
+class Calculate(object):
+    def solution(self, s):
+        

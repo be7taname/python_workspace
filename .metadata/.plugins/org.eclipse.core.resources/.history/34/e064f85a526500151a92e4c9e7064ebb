@@ -1,0 +1,13 @@
+'''
+Created on Sep 27, 2015
+
+@author: mianmianba
+'''
+
+class MaxProduct(object):
+    def solution(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+                

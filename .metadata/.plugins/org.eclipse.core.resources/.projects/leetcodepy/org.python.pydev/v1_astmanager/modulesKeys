@@ -5,6 +5,7 @@ common.TreeNode|/home/mianmianba/Projects/python_workspace/leetcodepy/src/common
 common.__init__|/home/mianmianba/Projects/python_workspace/leetcodepy/src/common/__init__.py
 problemset.Algorithms|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/Algorithms.py
 problemset.BasicCalculator|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/BasicCalculator.py
+problemset.BasicCalculatorII|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/BasicCalculatorII.py
 problemset.BestTimeBuySellStock|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/BestTimeBuySellStock.py
 problemset.BinaryTreeRightSideView|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/BinaryTreeRightSideView.py
 problemset.DecodeWays|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/DecodeWays.py
@@ -17,6 +18,7 @@ problemset.LargestNumber|/home/mianmianba/Projects/python_workspace/leetcodepy/s
 problemset.LongestPalindromicSubstring|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LongestPalindromicSubstring.py
 problemset.LongestSubStringNoRep|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LongestSubStringNoRep.py
 problemset.MaxArea|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MaxArea.py
+problemset.MaxProdSubarray|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MaxProdSubarray.py
 problemset.MaximumSubarray|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MaximumSubarray.py
 problemset.NumberOfIslands|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/NumberOfIslands.py
 problemset.PalindromePartitioning|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/PalindromePartitioning.py

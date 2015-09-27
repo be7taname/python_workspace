@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 179;
+titleNum = 152;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -84,6 +84,8 @@ elif titleNum == 151:
     from ReverseWordsInString import ReverseWords # Reverse Words In a String, Hard, use function join&split
     rw = ReverseWords()
     print rw.solution("   a   b ")
+elif titleNum == 152:
+    from MaxProdSubarray import MaxProduct # Maximum Product Subarray, Dynamic Programming
 elif titleNum == 166:
     from Fraction2RecurringDecimal import FractionToDecimal # Fraction to Recurring Decimal, Hard
     ftd = FractionToDecimal()
@@ -107,6 +109,10 @@ elif titleNum == 224:
     from BasicCalculator import Calculate # Basic Calculator, Hard, Very
     bc = Calculate()
     print bc.solutionStack("1-1")
+elif titleNum == 227: # Basic Calculator II, Hard, the most efficient way
+    from BasicCalculatorII import Calculate
+    bc2 = Calculate()
+    print bc2.solution('0-0')
 elif titleNum == 273:
     from IntegerToEnglishWords import NumberToWords # Integer To English Words
 elif titleNum == 274:

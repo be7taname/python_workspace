@@ -1,0 +1,22 @@
+'''
+Created on Sep 24, 2015
+
+@author: mianmianba
+'''
+
+class Calculate(object):
+    def solution(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        strLen = len(s)
+        cnt = 0
+        while cnt < strLen:
+            cc = s[cnt]
+            if cc >= '0' and cc <= '9':
+                curNumStr = cc
+                cnt = cnt + 1
+                while cnt < strLen:
+                    cc = s[cnt]
+                    if cc >= '0' and cc <= '9':
