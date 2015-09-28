@@ -23,6 +23,7 @@ problemset.MaximumSubarray|/home/mianmianba/Projects/python_workspace/leetcodepy
 problemset.NumberOfIslands|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/NumberOfIslands.py
 problemset.PalindromePartitioning|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/PalindromePartitioning.py
 problemset.ReverseWordsInString|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/ReverseWordsInString.py
+problemset.SimplifyPath|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SimplifyPath.py
 problemset.SingleNumber|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SingleNumber.py
 problemset.SortedArrayToBST|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SortedArrayToBST.py
 problemset.SortedListToBST|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SortedListToBST.py
@@ -30,5 +31,6 @@ problemset.SurroundedRegions|/home/mianmianba/Projects/python_workspace/leetcode
 problemset.ThreeSum|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/ThreeSum.py
 problemset.Triangle|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/Triangle.py
 problemset.TwoSum|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/TwoSum.py
+problemset.ValidateBST|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/ValidateBST.py
 problemset.WordLadder|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/WordLadder.py
 problemset.__init__|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/__init__.py

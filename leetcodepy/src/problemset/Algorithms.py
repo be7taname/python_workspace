@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 152;
+titleNum = 221;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -43,12 +43,22 @@ elif titleNum == 53:
     ms = MaxSubArray()
     print ms.solutions([-2, -1])
     print ms.solutions([-2,1,-3,4,-1,2,1,-5,4]), ms.solutions([1])
+elif titleNum == 71:
+    from SimplifyPath import SimplifyPath # Simplify Path, Implementation not efficient
+    sp = SimplifyPath()
+    print sp.solution('/.')
 elif titleNum == 91:
     from DecodeWays import NumDecodings
     nds = NumDecodings()
     s = '12006'
     print nds.solutionDP(s) # Decode Ways, Hard, Dynamic Programming
     print nds.solutionDPOnline(s)
+elif titleNum == 98:
+    from common.TreeNode import TreeNode, genTree # Valid Binary Search Tree
+    from ValidateBST import IsValidBST
+    ivb = IsValidBST()
+    root = genTree([1, 2, 3, 4, 5, 6, 7], [3, 1, 5, 0, 2, 4, 6])
+    print ivb.solutions(root)
 elif titleNum == 108:
     from SortedArrayToBST import SortedArrayToBST
 elif titleNum == 109:
@@ -105,11 +115,13 @@ elif titleNum == 199:
     from BinaryTreeRightSideView import RightSideView # Binary Tree Right Side view
 elif titleNum == 200:
     from NumberOfIslands import NumIslands # Number of Islands, Hard
+elif titleNum == 221:
+    from MaximalSquare import MaximalSquare # Maximal Square, Dynamic programming, Nice work
 elif titleNum == 224:
     from BasicCalculator import Calculate # Basic Calculator, Hard, Very
     bc = Calculate()
     print bc.solutionStack("1-1")
-elif titleNum == 227: # Basic Calculator II, Hard, the most efficient way
+elif titleNum == 227: # Basic Calculator II, Hard, Implementation not efficient
     from BasicCalculatorII import Calculate
     bc2 = Calculate()
     print bc2.solution('0-0')

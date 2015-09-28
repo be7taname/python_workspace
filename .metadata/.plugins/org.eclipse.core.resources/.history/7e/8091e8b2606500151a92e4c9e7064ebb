@@ -1,0 +1,14 @@
+'''
+Created on Sep 27, 2015
+
+@author: mianmianba
+'''
+
+class IsValidBST(object):
+    def solutions(self, root):
+        """
+        :type root: TreeNode
+        :rtype: bool
+        """
+        
+    def MaxOrInvalid(self, root):

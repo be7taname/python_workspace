@@ -1,0 +1,42 @@
+'''
+Created on Sep 27, 2015
+
+@author: mianmianba
+'''
+
+class IsValidBST(object):
+    def solutions(self, root):
+        """
+        :type root: TreeNode
+        :rtype: bool
+        """
+        if root == None: return True
+        if root.left == None and root.right == None:
+            return True
+        if root.left != None:
+            (leftMin, leftMax) = self.MaxOrInvalid(root.left)
+            if leftMax == False: return False
+            if leftMax >= root.val: return False
+        if root.right != None:
+            (rightMin, rightMax) = self.MaxOrInvalid(root.right)
+            if rightMin == False: return False
+            if rightMin <= root.val: return False
+        return True
+        
+    def MaxOrInvalid(self, root):
+        if root.left == None and root.right == None:
+            return (root.val, root.val)
+        minVal, maxVal = root.val, root.val
+        if root.left != None:
+            (leftMin, leftMax) = self.MaxOrInvalid(root.left)
+            if leftMax == False: return (False, False)
+            if leftMax >= root.val: return (False, False)
+            minVal = leftMin
+        if root.right != None:
+            (rightMin, rightMax) = self.MaxOrInvalid(root.right)
+            if rightMin == False: return (False, False)
+            if rightMin <= root.val: return (False, False)
+            maxVal = rightMax
+        return (minVal, maxVal)
+    
+        

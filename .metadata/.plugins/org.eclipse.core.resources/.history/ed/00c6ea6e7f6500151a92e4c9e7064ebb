@@ -1,0 +1,8 @@
+'''
+Created on Sep 27, 2015
+
+@author: mianmianba
+'''
+
+class MaximalSquare(object):
+    def solution(self):
