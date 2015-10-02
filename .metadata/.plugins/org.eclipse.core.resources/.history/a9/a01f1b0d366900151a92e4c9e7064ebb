@@ -1,0 +1,14 @@
+'''
+Created on Oct 2, 2015
+
+@author: mianmianba
+'''
+
+class FindRepeatedDnaSequences(object):
+    def solution(self, s):
+        """
+        :type s: str
+        :rtype: List[str]
+        """
+        dnaMap = {'A':0, 'C':1, 'G':2 ,'T':3}
+        for cc in s:

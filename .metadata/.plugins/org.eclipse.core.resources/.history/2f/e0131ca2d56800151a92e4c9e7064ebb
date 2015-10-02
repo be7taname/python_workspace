@@ -1,0 +1,9 @@
+'''
+Created on Oct 2, 2015
+
+@author: mianmianba
+'''
+
+class FindRepeatedDnaSequences(object):
+    def solution(self, s):
+        

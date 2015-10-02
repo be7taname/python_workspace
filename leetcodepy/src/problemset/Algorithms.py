@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 54;
+titleNum = 143;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -98,6 +98,15 @@ elif titleNum == 134:
     from GasStation import CanCompleteCircuit # Gas Station, Hard
 elif titleNum == 136:
     from SingleNumber import SingleNumber # Single Number
+elif titleNum == 143:
+    from common.ListNode import ListNode
+    from ReorderList import ReorderList # Reorder List
+    rl = ReorderList()
+    ln = ListNode(1); ln.next = ListNode(2); ln.next.next = ListNode(3); ln.next.next.next = ListNode(4)
+    rl.solution(ln)
+    while ln:
+        print ln.val
+        ln = ln.next
 elif titleNum == 151:
     from ReverseWordsInString import ReverseWords # Reverse Words In a String, Hard, use function join&split
     rw = ReverseWords()
@@ -119,6 +128,8 @@ elif titleNum == 173: # Binary Search Tree Iterator, Interesting
     print bstls
 elif titleNum == 179:
     from LargestNumber import LargestNumber # Largest Number, Hard, Use customized compare function for sorting
+elif titleNum == 187:
+    from RepeatedDnaSequences import FindRepeatedDnaSequences # Repeated DNA Sequences, Hard, usage of dict data structure
 elif titleNum == 199:
     from BinaryTreeRightSideView import RightSideView # Binary Tree Right Side view
 elif titleNum == 200:
