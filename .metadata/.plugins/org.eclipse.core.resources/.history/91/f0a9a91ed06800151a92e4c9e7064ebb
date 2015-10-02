@@ -1,0 +1,31 @@
+'''
+Created on Oct 1, 2015
+
+@author: mianmianba
+'''
+
+class SpiralOrder(object):
+    def solution(self, matrix):
+        """
+        :type matrix: List[List[int]]
+        :rtype: List[int]
+        """
+        row = len(matrix)
+        if row == 0: return []
+        col = len(matrix[0])
+        curIdx = 0
+        curJdx = 0
+        ret = []
+        while row > 0 and col > 0:
+            if row == 1:
+                for i in range(col):
+                    ret.append(matrix[curIdx][curJdx])
+                    curJdx += 1
+                return ret
+            if col == 1:
+                for i in range(col):
+                    ret.append(matrix[curIdx][curJdx])
+                    curJdx += 1
+                return ret
+                
+        

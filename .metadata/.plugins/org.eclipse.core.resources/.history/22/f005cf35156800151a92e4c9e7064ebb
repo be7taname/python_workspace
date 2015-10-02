@@ -1,0 +1,51 @@
+'''
+Created on Sep 28, 2015
+
+@author: mianmianba
+'''
+
+class WordNode(object):
+    def __init__(self):
+        self.isWord = False
+        self.children = [None] * 26
+
+class WordDictionary(object):
+    def __init__(self):
+        """
+        initialize your data structure here.
+        """
+        self.root = WordNode()
+        
+
+    def addWord(self, word):
+        """
+        Adds a word into the data structure.
+        :type word: str
+        :rtype: void
+        """
+        curNode = self.root
+        for cc in word:
+            idx = ord(cc) - ord('a')
+            if not curNode.children[idx]:
+                curNode.children[idx] = WordNode()
+            curNode = curNode.children[idx]
+        curNode.isWord = True
+        
+
+    def search(self, word):
+        """
+        Returns if the word is in the data structure. A word could
+        contain the dot character '.' to represent any one letter.
+        :type word: str
+        :rtype: bool
+        """
+        if word == '.': return True
+        else:
+            curNode = self.root
+            for cc in word:
+                if cc == '.':
+
+# Your WordDictionary object will be instantiated and called as such:
+# wordDictionary = WordDictionary()
+# wordDictionary.addWord("word")
+# wordDictionary.search("pattern")

@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 221;
+titleNum = 54;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -22,6 +22,8 @@ if titleNum == 1:
     from TwoSum import TwoSum # Two Sum, Hard
     ts = TwoSum()
     print ts.solution([2, 7, 11, 15], 9)
+elif titleNum == 2:
+    from AddTwoNumbers import AddTwoNumbers # Add Two Numbers
 elif titleNum == 3:
     from LongestSubStringNoRep import LengthOfLongestSubstring
     lols = LengthOfLongestSubstring()
@@ -43,10 +45,16 @@ elif titleNum == 53:
     ms = MaxSubArray()
     print ms.solutions([-2, -1])
     print ms.solutions([-2,1,-3,4,-1,2,1,-5,4]), ms.solutions([1])
+elif titleNum == 54:
+    from SpiralMatrix import SpiralOrder # Spiral Matrix
 elif titleNum == 71:
     from SimplifyPath import SimplifyPath # Simplify Path, Implementation not efficient
     sp = SimplifyPath()
     print sp.solution('/.')
+elif titleNum == 79:
+    from WordSearch import Exist # word search
+    ew = Exist()
+    print ew.solution([["A","B","C","E"], ["S","F","C","S"], ["A","D","E","E"]], "ABCB")
 elif titleNum == 91:
     from DecodeWays import NumDecodings
     nds = NumDecodings()
@@ -115,6 +123,10 @@ elif titleNum == 199:
     from BinaryTreeRightSideView import RightSideView # Binary Tree Right Side view
 elif titleNum == 200:
     from NumberOfIslands import NumIslands # Number of Islands, Hard
+elif titleNum == 208:
+    from common.ImplementTrie import Trie, TrieNode # Implement Trie, Hard, New Concept
+elif titleNum == 211:
+    from common.AddAndSearchWord import WordDictionary # Add and Search Word, Hard, New way to implement Trie
 elif titleNum == 221:
     from MaximalSquare import MaximalSquare # Maximal Square, Dynamic programming, Nice work
 elif titleNum == 224:
@@ -125,6 +137,8 @@ elif titleNum == 227: # Basic Calculator II, Hard, Implementation not efficient
     from BasicCalculatorII import Calculate
     bc2 = Calculate()
     print bc2.solution('0-0')
+elif titleNum == 233:
+    from NumberToDigitalOne import CountDigitOne # Number of Digit One, Hard, tricky
 elif titleNum == 273:
     from IntegerToEnglishWords import NumberToWords # Integer To English Words
 elif titleNum == 274:

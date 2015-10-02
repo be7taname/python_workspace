@@ -1,0 +1,23 @@
+'''
+Created on Oct 1, 2015
+
+@author: mianmianba
+'''
+
+from common.ListNode import ListNode
+
+class AddTwoNumbers(object):
+    def solution(self, l1, l2):
+        """
+        :type l1: ListNode
+        :type l2: ListNode
+        :rtype: ListNode
+        """
+        sum = ListNode(0)
+        c3 = 0
+        while l1 and l2:
+            cursum = c3 + l1.val + l2.val
+            if cursum >= 10:
+                c3 = 1
+                cursum -= 10
+            sum.val = cursum

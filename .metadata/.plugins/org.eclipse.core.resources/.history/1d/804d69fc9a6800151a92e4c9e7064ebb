@@ -1,0 +1,13 @@
+'''
+Created on Oct 1, 2015
+
+@author: mianmianba
+'''
+
+class CountDigitOne(object):
+    def solution(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        
