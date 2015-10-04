@@ -1,0 +1,43 @@
+'''
+Created on Oct 3, 2015
+
+@author: mianmianba
+'''
+
+class RestoreIpAddresses(object):
+    def FindIpAddress(self, s, num):
+        sLen = len(s)
+        if sLen == 0: return []
+        if num == 1:
+            ipA = int(s)
+            if ipA <= 255:
+                return [s]
+            else:
+                return []
+        else:
+            if sLen < num:
+                return []
+            else:
+                allIps = []
+                if sLen >= 2:
+                    subIps = self.FindIpAddress(s[1:], num-1)
+                    if subIps != []:
+                        for subIp in subIps:
+                            allIps.append(s[0] + '.' + subIp)
+                if sLen >= 3:
+                    subIps = self.FindIpAddress(s[2:], num-1)
+                    if subIps != []:
+                        for subIp in subIps:
+                            allIps.append(s[0:2] + '.' + subIp)
+                if sLen >= 4:
+                    ipA = int(s[0:3])
+                
+                
+        
+        
+    def solution(self, s):
+        """
+        :type s: str
+        :rtype: List[str]
+        """
+                

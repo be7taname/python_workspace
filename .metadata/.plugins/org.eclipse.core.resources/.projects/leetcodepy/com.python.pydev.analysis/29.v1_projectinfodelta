@@ -1,6 +1,8 @@
-INSTUPproblemset.ReorderList
-/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/ReorderList.py
-INFOS:&&1|1|2|0&&2|3|2|1
-ReorderList=1
-solution=3
-problemset.ReorderList=2
+INSTUPproblemset.RestoreIpAddresses
+/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/RestoreIpAddresses.py
+INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1&&2|5|2|1
+problemset.RestoreIpAddresses=2
+IsValidIp=3
+solution=5
+FindIpAddress=4
+RestoreIpAddresses=1

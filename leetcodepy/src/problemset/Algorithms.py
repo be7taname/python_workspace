@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 143;
+titleNum = 93;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -40,6 +40,8 @@ elif titleNum == 15:
     print thsu.solution([0, 0, 0])
 elif titleNum == 29:
     from DivideTwoIntegers import Divide # Divide Two Integers
+elif titleNum == 43:
+    from MultiplyStrings import Multiply # Multiply Strings
 elif titleNum == 53:
     from MaximumSubarray import MaxSubArray # Maximum Subarray, Hard, for the best solution
     ms = MaxSubArray()
@@ -61,6 +63,8 @@ elif titleNum == 91:
     s = '12006'
     print nds.solutionDP(s) # Decode Ways, Hard, Dynamic Programming
     print nds.solutionDPOnline(s)
+elif titleNum == 93:
+    from RestoreIpAddresses import RestoreIpAddresses # Restore IP Addresses
 elif titleNum == 98:
     from common.TreeNode import TreeNode, genTree # Valid Binary Search Tree
     from ValidateBST import IsValidBST

@@ -1,0 +1,15 @@
+'''
+Created on Oct 3, 2015
+
+@author: mianmianba
+'''
+
+class Multiply(object):
+    def solution(self, num1, num2):
+        """
+        :type num1: str
+        :type num2: str
+        :rtype: str
+        """
+        num1 = num1[::-1]
+        # return str(int(num1)*int(num2))
