@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 93;
+titleNum = 220;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -49,6 +49,8 @@ elif titleNum == 53:
     print ms.solutions([-2,1,-3,4,-1,2,1,-5,4]), ms.solutions([1])
 elif titleNum == 54:
     from SpiralMatrix import SpiralOrder # Spiral Matrix
+elif titleNum == 61:
+    from RotateList import RotateRight # Rotate List
 elif titleNum == 71:
     from SimplifyPath import SimplifyPath # Simplify Path, Implementation not efficient
     sp = SimplifyPath()
@@ -111,6 +113,10 @@ elif titleNum == 143:
     while ln:
         print ln.val
         ln = ln.next
+elif titleNum == 150:
+    from EvaluateReversePolishNotation import EvalRPN # Evaluate Reverse Polish Notation
+    erpn = EvalRPN()
+    print erpn.solution(["10","6","9","3","+","-11","*","/","*","17","+","5","+"])
 elif titleNum == 151:
     from ReverseWordsInString import ReverseWords # Reverse Words In a String, Hard, use function join&split
     rw = ReverseWords()
@@ -142,8 +148,22 @@ elif titleNum == 208:
     from common.ImplementTrie import Trie, TrieNode # Implement Trie, Hard, New Concept
 elif titleNum == 211:
     from common.AddAndSearchWord import WordDictionary # Add and Search Word, Hard, New way to implement Trie
+elif titleNum == 220:
+    from ContainsDuplicateIII import ContainsNearbyAlmostDuplicate # Contains Duplicate III, Hard, Very
+    cnad = ContainsNearbyAlmostDuplicate()
+    nums = [0,10,22,15,0,5,22,12,1,5]
+    k = 3
+    t = 3
+    print cnad.solutionDict(nums, k, t)
+    print cnad.solution(nums, k, t)
 elif titleNum == 221:
     from MaximalSquare import MaximalSquare # Maximal Square, Dynamic programming, Nice work
+elif titleNum == 222:
+    from common.TreeNode import TreeNode, genTreeNoVal
+    from CountCompleteTreeNodes import CountNodes # Count Complete Tree Nodes, Hard, Efficient Solution
+    cn = CountNodes()
+    root = genTreeNoVal([1, 2, 3, 4])
+    print cn.solutionTwo(root)
 elif titleNum == 224:
     from BasicCalculator import Calculate # Basic Calculator, Hard, Very
     bc = Calculate()

@@ -1,0 +1,16 @@
+'''
+Created on Oct 5, 2015
+
+@author: mianmianba
+'''
+
+class EvalRPN(object):
+    def solution(self, tokens):
+        """
+        :type tokens: List[str]
+        :rtype: int
+        """
+        op = set(['+', '-', '*', '/'])
+        numStack = []
+        for cc in tokens:
+            if cc in op:

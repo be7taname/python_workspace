@@ -1,0 +1,33 @@
+'''
+Created on Oct 5, 2015
+
+@author: mianmianba
+'''
+
+from common.ListNode import ListNode
+
+class RotateRight(object):
+    def solution(self, head, k):
+        """
+        :type head: ListNode
+        :type k: int
+        :rtype: ListNode
+        """
+        if k == 0: return head
+        elif head == None: return head
+        else:
+            listLen = 1
+            curp = head
+            while curp.next:
+                listLen += 1
+                curp = curp.next
+            tail = curp
+            curp = head
+            k %= listLen
+            for i in range(listLen - k - 1):
+                curp = curp.next
+            newh = curp.next
+            curp.next = None
+            tail.next = head
+        return newh
+    

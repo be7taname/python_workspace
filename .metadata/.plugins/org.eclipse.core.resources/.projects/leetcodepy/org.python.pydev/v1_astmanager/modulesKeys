@@ -11,8 +11,10 @@ problemset.BasicCalculator|/home/mianmianba/Projects/python_workspace/leetcodepy
 problemset.BasicCalculatorII|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/BasicCalculatorII.py
 problemset.BestTimeBuySellStock|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/BestTimeBuySellStock.py
 problemset.BinaryTreeRightSideView|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/BinaryTreeRightSideView.py
+problemset.CountCompleteTreeNodes|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/CountCompleteTreeNodes.py
 problemset.DecodeWays|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/DecodeWays.py
 problemset.DivideTwoIntegers|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/DivideTwoIntegers.py
+problemset.EvaluateReversePolishNotation|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/EvaluateReversePolishNotation.py
 problemset.Fraction2RecurringDecimal|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/Fraction2RecurringDecimal.py
 problemset.GasStation|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/GasStation.py
 problemset.HIndex|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/HIndex.py
@@ -30,8 +32,9 @@ problemset.NumberToDigitalOne|/home/mianmianba/Projects/python_workspace/leetcod
 problemset.PalindromePartitioning|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/PalindromePartitioning.py
 problemset.ReorderList|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/ReorderList.py
 problemset.RepeatedDnaSequences|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/RepeatedDnaSequences.py
-problemset.RestoreIPAddresses|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/RestoreIPAddresses.py
+problemset.RestoreIpAddresses|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/RestoreIpAddresses.py
 problemset.ReverseWordsInString|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/ReverseWordsInString.py
+problemset.RotateList|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/RotateList.py
 problemset.SimplifyPath|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SimplifyPath.py
 problemset.SingleNumber|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SingleNumber.py
 problemset.SortedArrayToBST|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SortedArrayToBST.py

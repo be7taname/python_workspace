@@ -1,0 +1,35 @@
+'''
+Created on Oct 5, 2015
+
+@author: mianmianba
+'''
+
+class CountNodes(object):
+    def cntLevel(self, root):
+        if root.left == None:
+            return (0, 1, True)
+        else:
+            (leftLevel, leftNodes, leftComp) = self.cntLevel(root.left)
+            if leftComp == False:
+                return (leftLevel+1, leftNodes, False)
+            else:
+                if root.right == None:
+                    return (leftLevel+1, leftNodes, False)
+                else:
+                    (rightLevel, rightNodes, rightComp) = self.cntLevel(root.right)
+                    if rightLevel < leftLevel:
+                        return (leftLevel+1, leftNodes, False)
+                    elif rightComp == True:
+                        return (leftLevel+1, leftNodes+rightNodes, True)
+                    else:
+                        return (leftLevel+1, leftNodes+rightNodes, False)
+        
+    def solution(self, root):
+        """
+        :type root: TreeNode
+        :rtype: int
+        """
+        if root == None: return 0
+        (level, nodes, comp) = self.cntLevel(root)
+        return nodes
+    

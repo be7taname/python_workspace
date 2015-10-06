@@ -1,0 +1,33 @@
+'''
+Created on Oct 5, 2015
+
+@author: mianmianba
+'''
+
+class ContainsNearbyAlmostDuplicate(object):
+    def solutionSort(self, nums, k, t):
+        numsLen = len(nums)
+        si = sorted(range(numsLen), key=lambda k: nums[k])
+        for i in range(numsLen-1):
+            if si[i+1]-si[i]<=k and nums[si[i+1]]-nums[si[i]]<=t: return True
+        return False
+        
+    def solution(self, nums, k, t):
+        """
+        :type nums: List[int]
+        :type k: int
+        :type t: int
+        :rtype: bool
+        """
+        numsLen = len(nums)
+        if numsLen == 1: return False
+        if k >= numsLen: k = numsLen - 1
+        for i in range(k+1):
+            for j in range(i+1, k+1):
+                if abs(nums[i] - nums[j]) <= t: return True
+        for i in range(k+1, numsLen):
+            for j in range(i-k, k):
+                if abs(nums[i] - nums[j]) <= t: return True
+        return False
+                
+        

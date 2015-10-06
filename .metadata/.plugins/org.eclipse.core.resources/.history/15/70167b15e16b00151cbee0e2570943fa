@@ -1,0 +1,17 @@
+'''
+Created on Oct 5, 2015
+
+@author: mianmianba
+'''
+
+class ContainsNearbyAlmostDuplicate(object):
+    def solution(self, nums, k, t):
+        """
+        :type nums: List[int]
+        :type k: int
+        :type t: int
+        :rtype: bool
+        """
+        for i in range(k+1):
+            for j in range(i+1, k+1):
+        

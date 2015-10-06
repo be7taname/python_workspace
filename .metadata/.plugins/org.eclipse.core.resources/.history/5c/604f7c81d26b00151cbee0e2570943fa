@@ -1,0 +1,14 @@
+'''
+Created on Oct 5, 2015
+
+@author: mianmianba
+'''
+
+class RotateRight(object):
+    def solution(self, head, k):
+        """
+        :type head: ListNode
+        :type k: int
+        :rtype: ListNode
+        """
+        

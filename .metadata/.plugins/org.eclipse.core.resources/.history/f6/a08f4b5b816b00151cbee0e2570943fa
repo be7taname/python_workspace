@@ -1,0 +1,9 @@
+'''
+Created on Oct 5, 2015
+
+@author: mianmianba
+'''
+
+class CountNodes(object):
+    def solution(self, root):
+        

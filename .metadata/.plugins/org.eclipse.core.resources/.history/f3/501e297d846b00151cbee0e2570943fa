@@ -1,0 +1,16 @@
+'''
+Created on Oct 5, 2015
+
+@author: mianmianba
+'''
+
+class CountNodes(object):
+    def cntLevel(self, root):
+        
+        
+    def solution(self, root):
+        """
+        :type root: TreeNode
+        :rtype: int
+        """
+                

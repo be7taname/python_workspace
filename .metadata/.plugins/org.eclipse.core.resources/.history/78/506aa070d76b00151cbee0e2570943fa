@@ -1,0 +1,21 @@
+'''
+Created on Oct 5, 2015
+
+@author: mianmianba
+'''
+
+from common.ListNode import ListNode
+
+class RotateRight(object):
+    def solution(self, head, k):
+        """
+        :type head: ListNode
+        :type k: int
+        :rtype: ListNode
+        """
+        if k == 0: return head
+        else:
+            listLen = 0
+            curp = head
+            while curp:
+                listLen += 1

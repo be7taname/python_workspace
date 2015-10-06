@@ -1,7 +1,7 @@
-INSTUPproblemset.RestoreIpAddresses
-/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/RestoreIpAddresses.py
+INSTUPproblemset.ContainsDuplicateIII
+/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/ContainsDuplicateIII.py
 INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1
-problemset.RestoreIpAddresses=2
+solutionDict=3
+ContainsNearbyAlmostDuplicate=1
+problemset.ContainsDuplicateIII=2
 solution=4
-FindIpAddress=3
-RestoreIpAddresses=1
