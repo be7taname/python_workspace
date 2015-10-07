@@ -1,0 +1,9 @@
+'''
+Created on Oct 6, 2015
+
+@author: mianmianba
+'''
+
+class FourSum(object):
+    def solution(self, nums, target):
+        

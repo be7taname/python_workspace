@@ -1,0 +1,9 @@
+'''
+Created on Oct 6, 2015
+
+@author: mianmianba
+'''
+
+class SortList(object):
+    def solution(self, head):
+        

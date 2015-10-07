@@ -1,0 +1,52 @@
+'''
+Created on Oct 6, 2015
+
+@author: mianmianba
+'''
+
+from common.ListNode import ListNode
+class SortList(object):
+    def solution(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        if head == None: return None
+        listLen = 1
+        curp = head
+        while curp.next:
+            listLen += 1
+            curp = curp.next
+        if listLen == 1: return head
+        else:
+            dummy = ListNode(0)
+            dummy.next = head
+            halfWindow = 1
+            while halfWindow < listLen:
+                hp = dummy
+                for i in range((listLen-1) / (halfWindow<<1) + 1):
+                    cp = hp
+                    for j in range(halfWindow<<1):
+                        if i == (listLen-1) / (halfWindow<<1) and i*(halfWindow<<1)+j < listLen:
+                            cp = cp.next
+                            if j == halfWindow - 1:
+                                mp = cp
+                        else:
+                            if j <= halfWindow - 1:
+                                mp = cp
+                            tp = cp
+                    else: tp = cp
+                    if mp == tp: break
+                    else:
+                        while hp != mp:
+                            if hp.next.val <= mp.next.val:
+                                hp = hp.next
+                            else:
+                                minp = mp.next
+                                mp.next = minp.next
+                                minp.next = hp.next
+                                hp.next = minp
+                                hp = hp.next
+                        hp = tp
+        return head
+                    

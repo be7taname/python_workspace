@@ -1,0 +1,18 @@
+'''
+Created on Oct 6, 2015
+
+@author: mianmianba
+'''
+
+class SortList(object):
+    def solution(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        listLen = 1
+        curp = head
+        while curp.next:
+            listLen += 1
+            curp = curp.next
+        

@@ -11,10 +11,12 @@ problemset.BasicCalculator|/home/mianmianba/Projects/python_workspace/leetcodepy
 problemset.BasicCalculatorII|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/BasicCalculatorII.py
 problemset.BestTimeBuySellStock|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/BestTimeBuySellStock.py
 problemset.BinaryTreeRightSideView|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/BinaryTreeRightSideView.py
+problemset.ContainsDuplicateIII|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/ContainsDuplicateIII.py
 problemset.CountCompleteTreeNodes|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/CountCompleteTreeNodes.py
 problemset.DecodeWays|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/DecodeWays.py
 problemset.DivideTwoIntegers|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/DivideTwoIntegers.py
 problemset.EvaluateReversePolishNotation|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/EvaluateReversePolishNotation.py
+problemset.FourSum|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/FourSum.py
 problemset.Fraction2RecurringDecimal|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/Fraction2RecurringDecimal.py
 problemset.GasStation|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/GasStation.py
 problemset.HIndex|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/HIndex.py
@@ -37,6 +39,7 @@ problemset.ReverseWordsInString|/home/mianmianba/Projects/python_workspace/leetc
 problemset.RotateList|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/RotateList.py
 problemset.SimplifyPath|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SimplifyPath.py
 problemset.SingleNumber|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SingleNumber.py
+problemset.SortList|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SortList.py
 problemset.SortedArrayToBST|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SortedArrayToBST.py
 problemset.SortedListToBST|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SortedListToBST.py
 problemset.SpiralMatrix|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SpiralMatrix.py

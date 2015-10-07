@@ -1,0 +1,26 @@
+'''
+Created on Oct 6, 2015
+
+@author: mianmianba
+'''
+
+from common.ListNode import ListNode
+class SortList(object):
+    def solution(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        listLen = 1
+        curp = head
+        while curp.next:
+            listLen += 1
+            curp = curp.next
+        if listLen == 1: return head
+        else:
+            dummy = ListNode()
+            dummy.next = head
+            halfWindow = 1
+            while halfWindow < listLen:
+                for i in range(listLen / (halfWindow<<1)):
+                    hp = dummy

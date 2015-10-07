@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 220;
+titleNum = 148;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -38,6 +38,8 @@ elif titleNum == 15:
     from ThreeSum import ThreeSum # 3Sum, Hard
     thsu = ThreeSum()
     print thsu.solution([0, 0, 0])
+elif titleNum == 18:
+    from FourSum import FourSum # 4sum, Hard, use hash table
 elif titleNum == 29:
     from DivideTwoIntegers import Divide # Divide Two Integers
 elif titleNum == 43:
@@ -113,6 +115,17 @@ elif titleNum == 143:
     while ln:
         print ln.val
         ln = ln.next
+elif titleNum == 148:
+    from common.ListNode import ListNode # Sort List, Hard, Merge Sort, Probably not good implementation
+    from SortList import SortList
+    head = ListNode(3)
+    head.next = ListNode(2)
+    head.next.next = ListNode(4)
+    sl = SortList()
+    newhead = sl.solution(head)
+    while newhead:
+        print newhead.val
+        newhead = newhead.next
 elif titleNum == 150:
     from EvaluateReversePolishNotation import EvalRPN # Evaluate Reverse Polish Notation
     erpn = EvalRPN()

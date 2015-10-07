@@ -1,7 +1,6 @@
-INSTUPproblemset.ContainsDuplicateIII
-/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/ContainsDuplicateIII.py
-INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1
-solutionDict=3
-ContainsNearbyAlmostDuplicate=1
-problemset.ContainsDuplicateIII=2
-solution=4
+INSTUPproblemset.SortList
+/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SortList.py
+INFOS:&&1|1|2|0&&2|3|2|1
+problemset.SortList=2
+solution=3
+SortList=1
