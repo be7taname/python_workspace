@@ -1,0 +1,9 @@
+'''
+Created on Oct 11, 2015
+
+@author: mianmianba
+'''
+
+class CanFinish(object):
+    def solutions(self, numCourses, prerequisites):
+        

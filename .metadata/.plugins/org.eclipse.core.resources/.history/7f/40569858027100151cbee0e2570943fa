@@ -1,0 +1,17 @@
+'''
+Created on Oct 11, 2015
+
+@author: mianmianba
+'''
+
+class CanFinish(object):
+    def solutions(self, numCourses, prerequisites):
+        """
+        :type numCourses: int
+        :type prerequisites: List[List[int]]
+        :rtype: bool
+        """
+        if numCourses == 1: return True
+        prereqLen = len(prerequisites)
+        srtedPrereq = [None] * numCourses
+        for prereq in prerequisites:

@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 148;
+titleNum = 229;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -157,8 +157,14 @@ elif titleNum == 199:
     from BinaryTreeRightSideView import RightSideView # Binary Tree Right Side view
 elif titleNum == 200:
     from NumberOfIslands import NumIslands # Number of Islands, Hard
+elif titleNum == 207:
+    from CourseSchedule import CanFinish # Course Schedule, Hard, check Course Schedule II
+    cf = CanFinish()
+    print cf.solutions(2, [[1, 0]])
 elif titleNum == 208:
     from common.ImplementTrie import Trie, TrieNode # Implement Trie, Hard, New Concept
+elif titleNum == 210:
+    from CourseScheduleII import FindOrder # Course Schedule II, Hard, Topological Order
 elif titleNum == 211:
     from common.AddAndSearchWord import WordDictionary # Add and Search Word, Hard, New way to implement Trie
 elif titleNum == 220:
@@ -185,8 +191,18 @@ elif titleNum == 227: # Basic Calculator II, Hard, Implementation not efficient
     from BasicCalculatorII import Calculate
     bc2 = Calculate()
     print bc2.solution('0-0')
+elif titleNum == 229:
+    from MajorityElementII import MajorityElementII # Majority Element II, Hard, Moore's algorithm variation
+    me2 = MajorityElementII()
+    print me2.solution([8, 8, 7, 7, 7])
 elif titleNum == 233:
     from NumberToDigitalOne import CountDigitOne # Number of Digit One, Hard, tricky
+elif titleNum == 263:
+    from UglyNumber import IsUgly # Ugly Number
+elif titleNum == 264:
+    from UglyNumberII import NthUglyNumber # Ugly Number II, Hard, Smart way to do it
+    nun = NthUglyNumber()
+    print nun.solution(7)
 elif titleNum == 273:
     from IntegerToEnglishWords import NumberToWords # Integer To English Words
 elif titleNum == 274:

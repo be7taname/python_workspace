@@ -1,0 +1,25 @@
+'''
+Created on Oct 12, 2015
+
+@author: mianmianba
+'''
+
+import bisect
+
+class NthUglyNumber(object):
+    def solution(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        if n == 1: return 1
+        else:
+            sl = [2, 3, 5]
+            cnt = 2
+            while cnt < n:
+                min = sl.pop(0)
+                bisect.bisect(sl, min*2)
+                bisect.bisect(sl, min*3)
+                bisect.bisect(sl, min*5)
+            return sl.pop(0)
+        

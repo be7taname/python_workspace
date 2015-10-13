@@ -1,0 +1,15 @@
+'''
+Created on Oct 12, 2015
+
+@author: mianmianba
+'''
+
+class MajorityElementII(object):
+    def solution(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        n1 = 0
+        n2 = 0
+        for x in nums:        

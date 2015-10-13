@@ -1,0 +1,14 @@
+'''
+Created on Oct 12, 2015
+
+@author: mianmianba
+'''
+
+class IsUgly(object):
+    def solution(self, num):
+        """
+        :type num: int
+        :rtype: bool
+        """
+        if num <= 0: return False
+        

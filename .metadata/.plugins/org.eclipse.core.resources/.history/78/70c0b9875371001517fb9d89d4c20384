@@ -1,0 +1,42 @@
+'''
+Created on Oct 12, 2015
+
+@author: mianmianba
+'''
+
+import bisect
+
+class NthUglyNumber(object):
+    def solutionFast(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        if n == 1: return 1
+        else:
+            
+        
+        
+    def solution(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        if n == 1: return 1
+        else:
+            sl = [2, 3, 5]
+            cnt = 2
+            while cnt < n:
+                min = sl.pop(0)
+                min2 = min*2
+                if min2 not in sl:
+                    bisect.insort(sl, min2)
+                min3 = min*3
+                if min3 not in sl:
+                    bisect.insort(sl, min3)
+                min5 = min*5
+                if min5 not in sl:
+                    bisect.insort(sl, min5)
+                cnt += 1
+            return sl.pop(0)
+        
