@@ -1,0 +1,9 @@
+'''
+Created on Oct 13, 2015
+
+@author: mianmianba
+'''
+
+class WordBreak(object):
+    def solution(self, s, wordDict):
+        

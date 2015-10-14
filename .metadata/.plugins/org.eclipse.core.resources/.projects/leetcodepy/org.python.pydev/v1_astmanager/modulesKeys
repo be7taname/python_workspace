@@ -26,6 +26,7 @@ problemset.IntegerToEnglishWords|/home/mianmianba/Projects/python_workspace/leet
 problemset.LargestNumber|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LargestNumber.py
 problemset.LongestPalindromicSubstring|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LongestPalindromicSubstring.py
 problemset.LongestSubStringNoRep|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LongestSubStringNoRep.py
+problemset.MajorityElementII|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MajorityElementII.py
 problemset.MaxArea|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MaxArea.py
 problemset.MaxProdSubarray|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MaxProdSubarray.py
 problemset.MaximalSquare|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MaximalSquare.py
@@ -34,6 +35,7 @@ problemset.MultiplyStrings|/home/mianmianba/Projects/python_workspace/leetcodepy
 problemset.NumberOfIslands|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/NumberOfIslands.py
 problemset.NumberToDigitalOne|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/NumberToDigitalOne.py
 problemset.PalindromePartitioning|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/PalindromePartitioning.py
+problemset.PermutationSequence|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/PermutationSequence.py
 problemset.ReorderList|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/ReorderList.py
 problemset.RepeatedDnaSequences|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/RepeatedDnaSequences.py
 problemset.RestoreIpAddresses|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/RestoreIpAddresses.py
@@ -52,6 +54,7 @@ problemset.TwoSum|/home/mianmianba/Projects/python_workspace/leetcodepy/src/prob
 problemset.UglyNumber|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/UglyNumber.py
 problemset.UglyNumberII|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/UglyNumberII.py
 problemset.ValidateBST|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/ValidateBST.py
+problemset.WordBreak|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/WordBreak.py
 problemset.WordLadder|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/WordLadder.py
 problemset.WordSearch|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/WordSearch.py
 problemset.__init__|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/__init__.py

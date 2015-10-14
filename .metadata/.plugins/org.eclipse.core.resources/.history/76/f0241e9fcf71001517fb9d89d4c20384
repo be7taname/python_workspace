@@ -1,0 +1,15 @@
+'''
+Created on Oct 13, 2015
+
+@author: mianmianba
+'''
+
+class GetPermutation(object):
+    def solution(self, n, k):
+        """
+        :type n: int
+        :type k: int
+        :rtype: str
+        """
+        for i in range(n-1, 0, -1):
+                    

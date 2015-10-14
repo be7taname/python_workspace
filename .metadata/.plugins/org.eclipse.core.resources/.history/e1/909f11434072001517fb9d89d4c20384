@@ -1,0 +1,35 @@
+'''
+Created on Oct 13, 2015
+
+@author: mianmianba
+'''
+
+class WordBreak(object):
+    def solutionFast(self, s, wordDict):
+        strLen = len(s)
+        wb = [False for x in range(strLen+1)]
+        wb[0] = True
+        for i in range(1, strLen+1):
+        
+    def solution(self, s, wordDict):
+        """
+        :type s: str
+        :type wordDict: Set[str]
+        :rtype: bool
+        """
+        strLen = len(s)
+        mat = [[False for x in range(strLen)] for y in range(strLen)]
+        for i in range(strLen):
+            if s[i] in wordDict: mat[i][i] = True
+        for diff in range(1, strLen):
+            for i in range(strLen-diff):
+                if s[i:i+diff+1] in wordDict: 
+                    mat[i][i+diff] = True
+                else:
+                    for j in range(diff):
+                        if mat[i][i+j] == True and mat[i+j+1][i+diff] == True:
+                            mat[i][i+diff] = True
+                            break
+        return mat[0][strLen-1]
+    
+                    

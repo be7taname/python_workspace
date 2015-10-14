@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 229;
+titleNum = 139;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -51,6 +51,10 @@ elif titleNum == 53:
     print ms.solutions([-2,1,-3,4,-1,2,1,-5,4]), ms.solutions([1])
 elif titleNum == 54:
     from SpiralMatrix import SpiralOrder # Spiral Matrix
+elif titleNum == 60:
+    from PermutationSequence import GetPermutation # Permutation Sequence
+    gp = GetPermutation()
+    print gp.solution(3, 3)
 elif titleNum == 61:
     from RotateList import RotateRight # Rotate List
 elif titleNum == 71:
@@ -106,6 +110,8 @@ elif titleNum == 134:
     from GasStation import CanCompleteCircuit # Gas Station, Hard
 elif titleNum == 136:
     from SingleNumber import SingleNumber # Single Number
+elif titleNum == 139:
+    from WordBreak import WordBreak # Word Break, Hard, Dynamic Programming
 elif titleNum == 143:
     from common.ListNode import ListNode
     from ReorderList import ReorderList # Reorder List

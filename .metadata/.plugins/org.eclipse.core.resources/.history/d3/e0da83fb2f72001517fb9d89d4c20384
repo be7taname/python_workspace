@@ -1,0 +1,15 @@
+'''
+Created on Oct 13, 2015
+
+@author: mianmianba
+'''
+
+class WordBreak(object):
+    def solution(self, s, wordDict):
+        """
+        :type s: str
+        :type wordDict: Set[str]
+        :rtype: bool
+        """
+        strLen = len(s)
+        mat = [[False for x in range(strLen)] for y in range(strLen)]        
