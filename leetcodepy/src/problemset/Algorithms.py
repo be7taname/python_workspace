@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 139;
+titleNum = 69;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -57,6 +57,11 @@ elif titleNum == 60:
     print gp.solution(3, 3)
 elif titleNum == 61:
     from RotateList import RotateRight # Rotate List
+elif titleNum == 69:
+    from SqrtOfX import MySqrt # Sqrt(x), Hard, binary search algorithm actually is better than Newton Algorithm
+    ms = MySqrt()
+    print ms.solution(120)
+    print ms.solutionFast(120)
 elif titleNum == 71:
     from SimplifyPath import SimplifyPath # Simplify Path, Implementation not efficient
     sp = SimplifyPath()

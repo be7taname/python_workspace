@@ -1,0 +1,9 @@
+'''
+Created on Oct 14, 2015
+
+@author: mianmianba
+'''
+
+class MySqrt(object):
+    def solution(self, x):
+        

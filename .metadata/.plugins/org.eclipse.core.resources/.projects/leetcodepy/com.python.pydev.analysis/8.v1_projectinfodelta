@@ -1,7 +1,7 @@
-INSTUPproblemset.WordBreak
-/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/WordBreak.py
+INSTUPproblemset.SqrtOfX
+/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SqrtOfX.py
 INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1
-problemset.WordBreak=2
-WordBreak=1
+MySqrt=1
 solutionFast=3
+problemset.SqrtOfX=2
 solution=4

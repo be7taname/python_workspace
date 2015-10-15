@@ -1,0 +1,15 @@
+'''
+Created on Oct 14, 2015
+
+@author: mianmianba
+'''
+
+class MySqrt(object):
+    def solution(self, x):
+        """
+        :type x: int
+        :rtype: int
+        """
+        if x == 1: return 1
+        maxx = x
+        minx = 1
