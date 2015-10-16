@@ -1,7 +1,6 @@
-INSTUPproblemset.SqrtOfX
-/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/SqrtOfX.py
-INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1
-MySqrt=1
-solutionFast=3
-problemset.SqrtOfX=2
-solution=4
+INSTUPproblemset.CloneGraph
+/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/CloneGraph.py
+INFOS:&&1|1|2|0&&2|3|2|1
+problemset.CloneGraph=2
+solution=3
+CloneGraph=1

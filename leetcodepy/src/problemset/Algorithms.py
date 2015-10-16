@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 69;
+titleNum = 49;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -44,6 +44,8 @@ elif titleNum == 29:
     from DivideTwoIntegers import Divide # Divide Two Integers
 elif titleNum == 43:
     from MultiplyStrings import Multiply # Multiply Strings
+elif titleNum == 49:
+    from GroupAnagrams import GroupAnagrams # Group Anagrams, Hard, Beautiful coding use dictionary
 elif titleNum == 53:
     from MaximumSubarray import MaxSubArray # Maximum Subarray, Hard, for the best solution
     ms = MaxSubArray()
@@ -111,6 +113,8 @@ elif titleNum == 131:
     from PalindromePartitioning import PalindromePartitioning # Palindrome Partitioning, very Hard
     pp = PalindromePartitioning()
     print pp.solution("a")
+elif titleNum == 133:
+    from CloneGraph import CloneGraph # Clone Graph, Hard, BFS combining with hash map
 elif titleNum == 134:
     from GasStation import CanCompleteCircuit # Gas Station, Hard
 elif titleNum == 136:
@@ -174,6 +178,10 @@ elif titleNum == 207:
     print cf.solutions(2, [[1, 0]])
 elif titleNum == 208:
     from common.ImplementTrie import Trie, TrieNode # Implement Trie, Hard, New Concept
+elif titleNum == 209:
+    from MinimumSizeSubarraySum import MinSubArrayLen
+    msal = MinSubArrayLen() # Minimum Size Subarray Sum, Hard, another way is to use binary search
+    print msal.solution(11, [1, 2, 3, 4, 5])
 elif titleNum == 210:
     from CourseScheduleII import FindOrder # Course Schedule II, Hard, Topological Order
 elif titleNum == 211:

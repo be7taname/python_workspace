@@ -1,8 +1,0 @@
-'''
-Created on Sep 19, 2015
-
-@author: mianmianba
-'''
-class SortedArrayToBST(object):
-    def solution(self, nums):
-        

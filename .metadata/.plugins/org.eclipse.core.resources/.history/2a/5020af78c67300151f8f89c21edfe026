@@ -1,0 +1,28 @@
+'''
+Created on Oct 15, 2015
+
+@author: mianmianba
+'''
+
+# Definition for a undirected graph node
+# class UndirectedGraphNode(object):
+#     def __init__(self, x):
+#         self.label = x
+#         self.neighbors = []
+
+from common.UndirectedGraphNode import UndirectedGraphNode
+
+class CloneGraph(object):
+    def solution(self, node):
+        """
+        :type node: UndirectedGraphNode
+        :rtype: UndirectedGraphNode
+        """
+        nodeset = set()
+        nodestack = [node]
+        nodestack
+        cnode = UndirectedGraphNode(node.x)
+        if node.neighbors == []: return cnode
+        for nnode in node.neighbors:
+            cnode.neighbors.append(nnode)
+                

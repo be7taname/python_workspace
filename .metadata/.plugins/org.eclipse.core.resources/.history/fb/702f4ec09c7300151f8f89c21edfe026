@@ -1,0 +1,22 @@
+'''
+Created on Oct 15, 2015
+
+@author: mianmianba
+'''
+
+class MinSubArrayLen(object):
+    def solution(self, s, nums):
+        """
+        :type s: int
+        :type nums: List[int]
+        :rtype: int
+        """
+        start = 0; end = 0
+        sum = 0; min = 0
+        while start < end and end < len(nums):
+            if sum >= s:
+                sum -= nums(start)
+                start += 1
+            sum += nums[end]
+            min += 1
+                    

@@ -1,9 +1,0 @@
-'''
-Created on Oct 1, 2015
-
-@author: mianmianba
-'''
-
-class SpiralOrder(object):
-    def solution(self, matrix):
-        

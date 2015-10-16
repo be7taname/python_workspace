@@ -1,7 +1,0 @@
-'''
-Created on Sep 2, 2015
-
-@author: mianmianba
-'''
-class CanCompleteCircuit(object):
-    def solution(self, gas, cost):

@@ -1,8 +1,0 @@
-'''
-Created on Sep 8, 2015
-
-@author: mianmianba
-'''
-class MinimumTotal(object):
-    def solution(self, triangle):
-        

@@ -1,0 +1,9 @@
+'''
+Created on Oct 15, 2015
+
+@author: mianmianba
+'''
+
+class MinSubArrayLen(object):
+    def solution(self, s, nums):
+        

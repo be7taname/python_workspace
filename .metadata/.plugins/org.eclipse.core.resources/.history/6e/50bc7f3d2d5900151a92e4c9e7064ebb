@@ -1,7 +1,0 @@
-'''
-Created on Sep 12, 2015
-
-@author: mianmianba
-'''
-class RightSideView(object):
-    def solution(self, root):

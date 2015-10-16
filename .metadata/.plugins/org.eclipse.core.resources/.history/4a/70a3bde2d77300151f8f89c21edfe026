@@ -1,0 +1,14 @@
+'''
+Created on Oct 15, 2015
+
+@author: mianmianba
+'''
+import collections
+
+class GroupAnagrams(object):
+    def solution(self, strs):
+        """
+        :type strs: List[str]
+        :rtype: List[List[str]]
+        """
+        dict = collections.defaultdict(list)

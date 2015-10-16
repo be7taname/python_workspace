@@ -1,9 +1,0 @@
-'''
-Created on Oct 2, 2015
-
-@author: mianmianba
-'''
-
-class ReorderList(object):
-    def solution(self, head):
-        

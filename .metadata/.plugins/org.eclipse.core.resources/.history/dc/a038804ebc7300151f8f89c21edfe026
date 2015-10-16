@@ -1,0 +1,13 @@
+'''
+Created on Oct 15, 2015
+
+@author: mianmianba
+'''
+
+class CloneGraph(object):
+    def solution(self, node):
+        """
+        :type node: UndirectedGraphNode
+        :rtype: UndirectedGraphNode
+        """
+                
