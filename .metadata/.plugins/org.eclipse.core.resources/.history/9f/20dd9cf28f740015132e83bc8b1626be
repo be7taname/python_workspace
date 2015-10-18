@@ -1,0 +1,16 @@
+'''
+Created on Oct 16, 2015
+
+@author: mianmianba
+'''
+
+class NextPermutation(object):
+    def solution(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: void Do not return anything, modify nums in-place instead.
+        """
+        numsLen = len(nums)
+        for i in range(-1, -numsLen, -1):
+            if nums[i-1] < nums[i]:
+                nums[i:] = reversed(nums[i:])

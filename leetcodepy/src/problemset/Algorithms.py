@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 49;
+titleNum = 31;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -42,6 +42,12 @@ elif titleNum == 18:
     from FourSum import FourSum # 4sum, Hard, use hash table
 elif titleNum == 29:
     from DivideTwoIntegers import Divide # Divide Two Integers
+elif titleNum == 31:
+    from NextPermutation import NextPermutation # Next Permutation, Hard, not that h.a.r.d
+    np = NextPermutation()
+    nums = [3, 2, 1]
+    np.solution(nums)
+    print nums
 elif titleNum == 43:
     from MultiplyStrings import Multiply # Multiply Strings
 elif titleNum == 49:

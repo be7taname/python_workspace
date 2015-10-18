@@ -23,6 +23,7 @@ problemset.EvaluateReversePolishNotation|/home/mianmianba/Projects/python_worksp
 problemset.FourSum|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/FourSum.py
 problemset.Fraction2RecurringDecimal|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/Fraction2RecurringDecimal.py
 problemset.GasStation|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/GasStation.py
+problemset.GroupAnagrams|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/GroupAnagrams.py
 problemset.HIndex|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/HIndex.py
 problemset.IntegerToEnglishWords|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/IntegerToEnglishWords.py
 problemset.LargestNumber|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LargestNumber.py
