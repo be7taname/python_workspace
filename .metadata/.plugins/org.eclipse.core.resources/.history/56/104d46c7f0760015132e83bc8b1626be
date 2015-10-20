@@ -1,0 +1,17 @@
+'''
+Created on Oct 19, 2015
+
+@author: mianmianba
+'''
+
+class CombinationSum(object):
+    def solution(self, candidates, target):
+        """
+        :type candidates: List[int]
+        :type target: int
+        :rtype: List[List[int]]
+        """
+        prev = candidates[0] - 1
+        for num in candidates:
+            if num > target: return
+            if num == prev: continue       

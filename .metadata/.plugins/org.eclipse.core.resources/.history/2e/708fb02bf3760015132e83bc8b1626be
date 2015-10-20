@@ -1,0 +1,29 @@
+'''
+Created on Oct 19, 2015
+
+@author: mianmianba
+'''
+
+class CombinationSum(object):
+    def solution(self, candidates, target):
+        """
+        :type candidates: List[int]
+        :type target: int
+        :rtype: List[List[int]]
+        """
+        prev = candidates[0] - 1
+        res = []
+        for i in len(candidates):
+            num = candidates[i]
+            if num == prev: continue
+            if num > target: return res
+            if num == target: 
+                res.append([target])
+                return res
+            thisRes = self.solution(candidates[i:], target - num)
+            for ss in thisRes:
+                ss.append(num)
+            res += thisRes
+        return res
+    
+            

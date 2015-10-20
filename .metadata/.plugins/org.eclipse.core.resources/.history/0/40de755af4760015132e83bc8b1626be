@@ -1,0 +1,14 @@
+'''
+Created on Oct 19, 2015
+
+@author: mianmianba
+'''
+
+class CombinationSum2(object):
+    def solution(self, candidates, target):
+        """
+        :type candidates: List[int]
+        :type target: int
+        :rtype: List[List[int]]
+        """
+                

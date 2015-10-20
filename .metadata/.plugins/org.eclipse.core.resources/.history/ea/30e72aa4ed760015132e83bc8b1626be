@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 40;
+titleNum = 47;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -48,12 +48,6 @@ elif titleNum == 31:
     nums = [3, 2, 1]
     np.solution(nums)
     print nums
-elif titleNum == 39:
-    from CombinationSum import CombinationSum # Combination Sum
-elif titleNum == 40:
-    from CombinationSumII import CombinationSum2 # Combination Sum II
-    cs2 = CombinationSum2()
-    print cs2.solution([2, 2, 2], 4)
 elif titleNum == 43:
     from MultiplyStrings import Multiply # Multiply Strings
 elif titleNum == 46:
