@@ -1,0 +1,9 @@
+'''
+Created on Oct 19, 2015
+
+@author: mianmianba
+'''
+
+class Permute(object):
+    def solution(self, nums):
+        

@@ -1,0 +1,8 @@
+'''
+Created on Oct 19, 2015
+
+@author: mianmianba
+'''
+
+class DeleteDuplicates(object):
+    def solution(self, ):

@@ -1,0 +1,15 @@
+'''
+Created on Oct 19, 2015
+
+@author: mianmianba
+'''
+
+class Permute(object):
+    def solution(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        numsLen = len(nums)
+        if numsLen == 1: return [[nums[0]]]
+                

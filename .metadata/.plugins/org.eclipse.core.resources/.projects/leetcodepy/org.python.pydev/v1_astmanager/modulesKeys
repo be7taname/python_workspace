@@ -36,10 +36,12 @@ problemset.MaximalSquare|/home/mianmianba/Projects/python_workspace/leetcodepy/s
 problemset.MaximumSubarray|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MaximumSubarray.py
 problemset.MinimumSizeSubarraySum|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MinimumSizeSubarraySum.py
 problemset.MultiplyStrings|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MultiplyStrings.py
+problemset.NextPermutation|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/NextPermutation.py
 problemset.NumberOfIslands|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/NumberOfIslands.py
 problemset.NumberToDigitalOne|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/NumberToDigitalOne.py
 problemset.PalindromePartitioning|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/PalindromePartitioning.py
 problemset.PermutationSequence|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/PermutationSequence.py
+problemset.RemoveDuplicatesFromSortedListII|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/RemoveDuplicatesFromSortedListII.py
 problemset.ReorderList|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/ReorderList.py
 problemset.RepeatedDnaSequences|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/RepeatedDnaSequences.py
 problemset.RestoreIpAddresses|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/RestoreIpAddresses.py

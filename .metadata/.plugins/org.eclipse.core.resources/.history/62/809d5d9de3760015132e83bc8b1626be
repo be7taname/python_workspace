@@ -1,0 +1,15 @@
+'''
+Created on Oct 19, 2015
+
+@author: mianmianba
+'''
+
+class Permute(object):
+    def extLists(self, n0, nrem):
+        
+    def solution(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+                

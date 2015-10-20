@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 31;
+titleNum = 47;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -50,6 +50,10 @@ elif titleNum == 31:
     print nums
 elif titleNum == 43:
     from MultiplyStrings import Multiply # Multiply Strings
+elif titleNum == 46:
+    from Permutations import Permute # Permutations
+elif titleNum == 47:
+    from PermutationsII import PermuteUnique # Permutations II
 elif titleNum == 49:
     from GroupAnagrams import GroupAnagrams # Group Anagrams, Hard, Beautiful coding use dictionary
 elif titleNum == 53:
@@ -78,6 +82,8 @@ elif titleNum == 79:
     from WordSearch import Exist # word search
     ew = Exist()
     print ew.solution([["A","B","C","E"], ["S","F","C","S"], ["A","D","E","E"]], "ABCB")
+elif titleNum == 82:
+    from RemoveDuplicatesFromSortedListII import DeleteDuplicates # Remove Duplicates from Sorted List II
 elif titleNum == 91:
     from DecodeWays import NumDecodings
     nds = NumDecodings()
