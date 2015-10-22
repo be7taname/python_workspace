@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 40;
+titleNum = 92;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -38,6 +38,8 @@ elif titleNum == 15:
     from ThreeSum import ThreeSum # 3Sum, Hard
     thsu = ThreeSum()
     print thsu.solution([0, 0, 0])
+elif titleNum == 17:
+    from LetterCombinationsPhoneNumber import LetterCombinations # Letter Combinations of a Phone Number
 elif titleNum == 18:
     from FourSum import FourSum # 4sum, Hard, use hash table
 elif titleNum == 29:
@@ -96,6 +98,8 @@ elif titleNum == 91:
     s = '12006'
     print nds.solutionDP(s) # Decode Ways, Hard, Dynamic Programming
     print nds.solutionDPOnline(s)
+elif titleNum == 92:
+    from ReverseLinkedListII import ReverseBetween # Reverse Linked List II
 elif titleNum == 93:
     from RestoreIpAddresses import RestoreIpAddresses # Restore IP Addresses
 elif titleNum == 98:

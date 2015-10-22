@@ -13,6 +13,8 @@ problemset.BasicCalculatorII|/home/mianmianba/Projects/python_workspace/leetcode
 problemset.BestTimeBuySellStock|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/BestTimeBuySellStock.py
 problemset.BinaryTreeRightSideView|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/BinaryTreeRightSideView.py
 problemset.CloneGraph|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/CloneGraph.py
+problemset.CombinationSum|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/CombinationSum.py
+problemset.CombinationSumII|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/CombinationSumII.py
 problemset.ContainsDuplicateIII|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/ContainsDuplicateIII.py
 problemset.CountCompleteTreeNodes|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/CountCompleteTreeNodes.py
 problemset.CourseSchedule|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/CourseSchedule.py
@@ -27,6 +29,7 @@ problemset.GroupAnagrams|/home/mianmianba/Projects/python_workspace/leetcodepy/s
 problemset.HIndex|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/HIndex.py
 problemset.IntegerToEnglishWords|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/IntegerToEnglishWords.py
 problemset.LargestNumber|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LargestNumber.py
+problemset.LetterCombinationsPhoneNumber|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LetterCombinationsPhoneNumber.py
 problemset.LongestPalindromicSubstring|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LongestPalindromicSubstring.py
 problemset.LongestSubStringNoRep|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LongestSubStringNoRep.py
 problemset.MajorityElementII|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MajorityElementII.py
@@ -41,6 +44,8 @@ problemset.NumberOfIslands|/home/mianmianba/Projects/python_workspace/leetcodepy
 problemset.NumberToDigitalOne|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/NumberToDigitalOne.py
 problemset.PalindromePartitioning|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/PalindromePartitioning.py
 problemset.PermutationSequence|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/PermutationSequence.py
+problemset.Permutations|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/Permutations.py
+problemset.PermutationsII|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/PermutationsII.py
 problemset.RemoveDuplicatesFromSortedListII|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/RemoveDuplicatesFromSortedListII.py
 problemset.ReorderList|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/ReorderList.py
 problemset.RepeatedDnaSequences|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/RepeatedDnaSequences.py

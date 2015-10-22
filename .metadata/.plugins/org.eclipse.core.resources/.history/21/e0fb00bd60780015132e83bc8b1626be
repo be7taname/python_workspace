@@ -1,0 +1,14 @@
+'''
+Created on Oct 21, 2015
+
+@author: mianmianba
+'''
+
+class LetterCombinations(object):
+    def solution(self, digits):
+        """
+        :type digits: str
+        :rtype: List[str]
+        """
+        dict = {2: ['a', 'b', 'c'], 
+                3: ['d', 'e', 'f']}        

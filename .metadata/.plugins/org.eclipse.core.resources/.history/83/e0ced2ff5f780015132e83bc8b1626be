@@ -1,0 +1,13 @@
+'''
+Created on Oct 21, 2015
+
+@author: mianmianba
+'''
+
+class LetterCombinations(object):
+    def solution(self, digits):
+        """
+        :type digits: str
+        :rtype: List[str]
+        """
+        
