@@ -1,0 +1,21 @@
+'''
+Created on Oct 22, 2015
+
+@author: mianmianba
+'''
+
+class MyPow(object):
+    def solution(self, x, n):
+        """
+        :type x: float
+        :type n: int
+        :rtype: float
+        """
+        if n == 0: return 1.0
+        elif n == 1: return x
+        else:
+            t = self.solution(x, n/2)
+            if n%2 == 0:
+                return t*t
+            else:
+                       

@@ -1,0 +1,21 @@
+'''
+Created on Oct 22, 2015
+
+@author: mianmianba
+'''
+
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+from common.TreeNode import TreeNode
+class ZigzagLevelOrder(object):
+    def solution(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[List[int]]
+        """
+                

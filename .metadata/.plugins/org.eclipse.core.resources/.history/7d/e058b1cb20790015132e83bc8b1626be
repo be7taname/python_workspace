@@ -1,0 +1,39 @@
+'''
+Created on Oct 22, 2015
+
+@author: mianmianba
+'''
+
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+from common.TreeNode import TreeNode
+class ZigzagLevelOrder(object):
+    def solution(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[List[int]]
+        """
+        treeStack = [root]
+        lastNode = root
+        direction = 1
+        res = []
+        thisRes = []
+        while treeStack:
+            curNode = treeStack.pop()
+            thisRes.append(curNode.val)
+            if direction == 0:
+                if curNode.right:
+                    treeStack.append(curNode.right)
+                if curNode.left:
+                    treeStack.append(curNode.left)
+            elif direction == 1:
+                if curNode.left:
+                    treeStack.append(curNode.left)
+                if curNode.right:
+                    treeStack.append(curNode.right)
+                

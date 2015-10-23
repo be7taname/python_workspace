@@ -1,7 +1,6 @@
-INSTUPproblemset.LetterCombinationsPhoneNumber
-/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LetterCombinationsPhoneNumber.py
-INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1
-problemset.LetterCombinationsPhoneNumber=2
-LetterCombinations=1
-getString=3
-solution=4
+INSTUPproblemset.PathSumII
+/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/PathSumII.py
+INFOS:&&1|1|2|0&&2|3|2|1
+solution=3
+problemset.PathSumII=2
+PathSumII=1

@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 92;
+titleNum = 50;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -64,6 +64,8 @@ elif titleNum == 47:
     from PermutationsII import PermuteUnique # Permutations II
 elif titleNum == 49:
     from GroupAnagrams import GroupAnagrams # Group Anagrams, Hard, Beautiful coding use dictionary
+elif titleNum == 50:
+    from MyPow import MyPow # Pow(x, n), Hard, use recursive
 elif titleNum == 53:
     from MaximumSubarray import MaxSubArray # Maximum Subarray, Hard, for the best solution
     ms = MaxSubArray()
@@ -108,6 +110,10 @@ elif titleNum == 98:
     ivb = IsValidBST()
     root = genTree([1, 2, 3, 4, 5, 6, 7], [3, 1, 5, 0, 2, 4, 6])
     print ivb.solutions(root)
+elif titleNum == 103:
+    from BinaryTreeZigzagLevelOrderTraversal import ZigzagLevelOrder # Binary Tree Zigzag Level Order Traversal
+elif titleNum == 105:
+    from ConstructBinaryTreeFromPreorderAndInorderTraversal import BuildTree # Hard, learn how to save memory during recursive calls
 elif titleNum == 108:
     from SortedArrayToBST import SortedArrayToBST
 elif titleNum == 109:
@@ -119,6 +125,8 @@ elif titleNum == 109:
     sltb = SortedListToBST()
     root = sltb.solution(ln)
     root.printTreeNodeVal()
+elif titleNum == 113:
+    from PathSumII import PathSumII # Path Sum II
 elif titleNum == 120:
     from Triangle import MinimumTotal # Triangle, find the minimum path of sum
 elif titleNum == 121:

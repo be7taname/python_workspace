@@ -1,0 +1,9 @@
+'''
+Created on Oct 21, 2015
+
+@author: mianmianba
+'''
+
+class BuildTree(object):
+    def solution(self, preorder, inorder):
+        
