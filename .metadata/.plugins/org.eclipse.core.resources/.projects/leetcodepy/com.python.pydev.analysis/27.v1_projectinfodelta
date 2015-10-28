@@ -1,6 +1,6 @@
-INSTUPproblemset.MyPow
-/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MyPow.py
+INSTUPproblemset.JumpGame
+/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/JumpGame.py
 INFOS:&&1|1|2|0&&2|3|2|1
-MyPow=1
+CanJump=1
+problemset.JumpGame=2
 solution=3
-problemset.MyPow=2

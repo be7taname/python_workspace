@@ -3,6 +3,7 @@ common.AddAndSearchWord|/home/mianmianba/Projects/python_workspace/leetcodepy/sr
 common.BSTIterator|/home/mianmianba/Projects/python_workspace/leetcodepy/src/common/BSTIterator.py
 common.ImplementTrie|/home/mianmianba/Projects/python_workspace/leetcodepy/src/common/ImplementTrie.py
 common.ListNode|/home/mianmianba/Projects/python_workspace/leetcodepy/src/common/ListNode.py
+common.SeDesBinaryTree|/home/mianmianba/Projects/python_workspace/leetcodepy/src/common/SeDesBinaryTree.py
 common.TreeNode|/home/mianmianba/Projects/python_workspace/leetcodepy/src/common/TreeNode.py
 common.UndirectedGraphNode|/home/mianmianba/Projects/python_workspace/leetcodepy/src/common/UndirectedGraphNode.py
 common.__init__|/home/mianmianba/Projects/python_workspace/leetcodepy/src/common/__init__.py
@@ -30,6 +31,7 @@ problemset.GasStation|/home/mianmianba/Projects/python_workspace/leetcodepy/src/
 problemset.GroupAnagrams|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/GroupAnagrams.py
 problemset.HIndex|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/HIndex.py
 problemset.IntegerToEnglishWords|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/IntegerToEnglishWords.py
+problemset.JumpGame|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/JumpGame.py
 problemset.LargestNumber|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LargestNumber.py
 problemset.LetterCombinationsPhoneNumber|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LetterCombinationsPhoneNumber.py
 problemset.LongestPalindromicSubstring|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/LongestPalindromicSubstring.py
@@ -41,6 +43,7 @@ problemset.MaximalSquare|/home/mianmianba/Projects/python_workspace/leetcodepy/s
 problemset.MaximumSubarray|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MaximumSubarray.py
 problemset.MinimumSizeSubarraySum|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MinimumSizeSubarraySum.py
 problemset.MultiplyStrings|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MultiplyStrings.py
+problemset.MyPow|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/MyPow.py
 problemset.NextPermutation|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/NextPermutation.py
 problemset.NumberOfIslands|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/NumberOfIslands.py
 problemset.NumberToDigitalOne|/home/mianmianba/Projects/python_workspace/leetcodepy/src/problemset/NumberToDigitalOne.py

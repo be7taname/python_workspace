@@ -1,0 +1,19 @@
+'''
+Created on Oct 27, 2015
+
+@author: mianmianba
+'''
+
+class CanJump(object):
+    def solution(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
+        maxIdx = 0
+        numsLen = len(nums)
+        for i in range(numsLen-1):
+            if i > maxIdx: return False
+            x = nums[i]
+            if x + i > maxIdx:
+                maxIdx = x + i

@@ -1,0 +1,16 @@
+'''
+Created on Oct 27, 2015
+
+@author: mianmianba
+'''
+
+class CanJump(object):
+    def solution(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
+        numZeros = nums.count(0)
+        if numZeros == 0: return True
+        while numZeros > 0:
+            zeroIdx = nums.index(0)        

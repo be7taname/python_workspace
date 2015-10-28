@@ -5,7 +5,7 @@ Created on Aug 30, 2015
 '''
 import argparse
 
-titleNum = 50;
+titleNum = 55;
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -73,6 +73,8 @@ elif titleNum == 53:
     print ms.solutions([-2,1,-3,4,-1,2,1,-5,4]), ms.solutions([1])
 elif titleNum == 54:
     from SpiralMatrix import SpiralOrder # Spiral Matrix
+elif titleNum == 55:
+    from JumpGame import CanJump # Jump Game
 elif titleNum == 60:
     from PermutationSequence import GetPermutation # Permutation Sequence
     gp = GetPermutation()
@@ -256,6 +258,13 @@ elif titleNum == 273:
     from IntegerToEnglishWords import NumberToWords # Integer To English Words
 elif titleNum == 274:
     from HIndex import HIndex # H-Index
+elif titleNum == 297:  # Serialize and Deserialize Binary Tree
+    from common.TreeNode import TreeNode
+    from common.SeDesBinaryTree import Codec
+    root = TreeNode(1)
+    sdbt = Codec();
+    print sdbt.serialize(root)
+    sdbt.deserialize(sdbt.serialize(root)).printTreeNodeVal()
 else:
     print 'Do nothing'
     
